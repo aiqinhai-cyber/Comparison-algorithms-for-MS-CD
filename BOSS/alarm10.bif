@@ -1,0 +1,4217 @@
+network unknown {
+}
+variable ANAPHYLAXIS {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable ARTCO2 {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable BP {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable CATECHOL {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable CO {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable CVP {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable DISCONNECT {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable ERRCAUTER {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable ERRLOWOUTPUT {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable EXPCO2 {
+    type discrete [ 4 ] { 0, 1, 2, 3 };
+    property weight = None ;
+}
+variable FIO2 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable HISTORY {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable HR {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable HRBP {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable HREKG {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable HRSAT {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable HYPOVOLEMIA {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable INSUFFANESTH {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable INTUBATION {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable KINKEDTUBE {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable LVEDVOLUME {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable LVFAILURE {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable MINVOL {
+    type discrete [ 4 ] { 0, 1, 2, 3 };
+    property weight = None ;
+}
+variable MINVOLSET {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable PAP {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable PCWP {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable PRESS {
+    type discrete [ 4 ] { 0, 1, 2, 3 };
+    property weight = None ;
+}
+variable PULMEMBOLUS {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable PVSAT {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable SAO2 {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable SHUNT {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable STROKEVOLUME {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable TPR {
+    type discrete [ 3 ] { 0, 1, 2 };
+    property weight = None ;
+}
+variable VENTALV {
+    type discrete [ 4 ] { 0, 1, 2, 3 };
+    property weight = None ;
+}
+variable VENTLUNG {
+    type discrete [ 4 ] { 0, 1, 2, 3 };
+    property weight = None ;
+}
+variable VENTMACH {
+    type discrete [ 4 ] { 0, 1, 2, 3 };
+    property weight = None ;
+}
+variable VENTTUBE {
+    type discrete [ 4 ] { 0, 1, 2, 3 };
+    property weight = None ;
+}
+variable X_new_1 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_10 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_100 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_101 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_102 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_103 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_104 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_105 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_106 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_107 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_108 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_109 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_11 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_110 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_111 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_112 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_113 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_114 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_115 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_116 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_117 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_118 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_119 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_12 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_120 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_121 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_122 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_123 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_124 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_125 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_126 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_127 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_128 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_129 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_13 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_130 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_131 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_132 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_133 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_134 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_135 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_136 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_137 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_138 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_139 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_14 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_140 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_141 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_142 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_143 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_144 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_145 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_146 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_147 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_148 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_149 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_15 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_150 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_151 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_152 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_153 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_154 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_155 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_156 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_157 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_158 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_159 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_16 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_160 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_161 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_162 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_163 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_164 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_165 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_166 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_167 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_168 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_169 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_17 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_170 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_171 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_172 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_173 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_174 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_175 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_176 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_177 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_178 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_179 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_18 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_180 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_181 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_182 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_183 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_184 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_185 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_186 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_187 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_188 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_189 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_19 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_190 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_191 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_192 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_193 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_194 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_195 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_196 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_197 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_198 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_199 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_2 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_20 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_200 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_201 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_202 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_203 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_204 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_205 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_206 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_207 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_208 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_209 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_21 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_210 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_211 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_212 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_213 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_214 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_215 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_216 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_217 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_218 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_219 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_22 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_220 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_221 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_222 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_223 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_224 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_225 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_226 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_227 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_228 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_229 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_23 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_230 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_231 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_232 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_233 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_234 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_235 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_236 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_237 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_238 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_239 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_24 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_240 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_241 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_242 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_243 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_244 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_245 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_246 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_247 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_248 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_249 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_25 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_250 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_251 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_252 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_253 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_254 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_255 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_256 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_257 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_258 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_259 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_26 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_260 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_261 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_262 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_263 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_264 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_265 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_266 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_267 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_268 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_269 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_27 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_270 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_271 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_272 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_273 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_274 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_275 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_276 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_277 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_278 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_279 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_28 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_280 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_281 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_282 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_283 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_284 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_285 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_286 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_287 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_288 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_289 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_29 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_290 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_291 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_292 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_293 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_294 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_295 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_296 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_297 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_298 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_299 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_3 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_30 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_300 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_301 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_302 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_303 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_304 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_305 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_306 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_307 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_308 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_309 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_31 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_310 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_311 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_312 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_313 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_314 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_315 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_316 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_317 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_318 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_319 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_32 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_320 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_321 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_322 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_323 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_324 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_325 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_326 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_327 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_328 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_329 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_33 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_330 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_331 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_332 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_333 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_34 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_35 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_36 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_37 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_38 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_39 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_4 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_40 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_41 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_42 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_43 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_44 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_45 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_46 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_47 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_48 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_49 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_5 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_50 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_51 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_52 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_53 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_54 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_55 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_56 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_57 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_58 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_59 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_6 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_60 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_61 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_62 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_63 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_64 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_65 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_66 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_67 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_68 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_69 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_7 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_70 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_71 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_72 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_73 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_74 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_75 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_76 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_77 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_78 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_79 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_8 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_80 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_81 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_82 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_83 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_84 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_85 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_86 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_87 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_88 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_89 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_9 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_90 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_91 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_92 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_93 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_94 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_95 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_96 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_97 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_98 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+variable X_new_99 {
+    type discrete [ 2 ] { 0, 1 };
+    property weight = None ;
+}
+probability ( ANAPHYLAXIS | X_new_72 ) {
+    ( 0 ) 0.6948920822831217, 0.3051079177168783;
+    ( 1 ) 0.4399408830243889, 0.5600591169756111;
+
+}
+probability ( ARTCO2 | X_new_47, HRSAT ) {
+    ( 0, 0 ) 0.4280050112706538, 0.15189291151311352, 0.4201020772162326;
+    ( 0, 1 ) 0.7765596611458921, 0.10758103654859413, 0.11585930230551375;
+    ( 0, 2 ) 0.1043920911773398, 0.4379369524727571, 0.45767095634990307;
+    ( 1, 0 ) 0.2331808124401678, 0.41388655958226445, 0.35293262797756775;
+    ( 1, 1 ) 0.3482538802671892, 0.1413869995053937, 0.5103591202274171;
+    ( 1, 2 ) 0.09519716168629173, 0.5883603263713807, 0.3164425119423276;
+
+}
+probability ( BP | X_new_212 ) {
+    ( 0 ) 0.6817844127957144, 0.22550892113821835, 0.09270666606606723;
+    ( 1 ) 0.8642796347612737, 0.04284841502114695, 0.09287195021757946;
+
+}
+probability ( CATECHOL | X_new_85, X_new_52 ) {
+    ( 0, 0 ) 0.17822572404636117, 0.8217742759536387;
+    ( 0, 1 ) 0.6305977641827175, 0.36940223581728254;
+    ( 1, 0 ) 0.4595242221937052, 0.5404757778062947;
+    ( 1, 1 ) 0.35674273115460825, 0.6432572688453918;
+
+}
+probability ( CO ) {
+    table 0.40543540774266507, 0.11913163060922845, 0.4754329616481064 ;
+}
+probability ( CVP | X_new_3 ) {
+    ( 0 ) 0.4318580389527175, 0.5055083112749494, 0.06263364977233306;
+    ( 1 ) 0.38386406855981847, 0.17116916236974042, 0.4449667690704411;
+
+}
+probability ( DISCONNECT ) {
+    table 0.5228611546275457, 0.4771388453724544 ;
+}
+probability ( ERRCAUTER ) {
+    table 0.935989241063549, 0.06401075893645107 ;
+}
+probability ( ERRLOWOUTPUT | X_new_315, X_new_173 ) {
+    ( 0, 0 ) 0.45015628478915737, 0.5498437152108426;
+    ( 0, 1 ) 0.9627978098175086, 0.03720219018249144;
+    ( 1, 0 ) 0.6238425704636018, 0.37615742953639814;
+    ( 1, 1 ) 0.40186894153555, 0.5981310584644501;
+
+}
+probability ( EXPCO2 | X_new_47, X_new_279 ) {
+    ( 0, 0 ) 0.17075020910143385, 0.1519876644080277, 0.3145086420714495, 0.36275348441908895;
+    ( 0, 1 ) 0.3171151731054385, 0.25981859585094297, 0.3286339848034647, 0.09443224624015387;
+    ( 1, 0 ) 0.32385380645480705, 0.17515798415452594, 0.4507580911790416, 0.0502301182116254;
+    ( 1, 1 ) 0.2443513881838897, 0.2226391290754746, 0.2535988294137109, 0.2794106533269247;
+
+}
+probability ( FIO2 | X_new_266, X_new_82 ) {
+    ( 0, 0 ) 0.4269852723784789, 0.5730147276215212;
+    ( 0, 1 ) 0.5209940027941727, 0.47900599720582726;
+    ( 1, 0 ) 0.4009067903274432, 0.5990932096725569;
+    ( 1, 1 ) 0.5641484472626154, 0.43585155273738463;
+
+}
+probability ( HISTORY | X_new_62, X_new_305 ) {
+    ( 0, 0 ) 0.2587016047342651, 0.7412983952657348;
+    ( 0, 1 ) 0.7751129647003777, 0.22488703529962234;
+    ( 1, 0 ) 0.5865543047139534, 0.41344569528604663;
+    ( 1, 1 ) 0.47492564458738157, 0.5250743554126185;
+
+}
+probability ( HR | X_new_69 ) {
+    ( 0 ) 0.06603118941754445, 0.28648313957722094, 0.6474856710052346;
+    ( 1 ) 0.37452603639709303, 0.3608254790250699, 0.26464848457783713;
+
+}
+probability ( HRBP | X_new_168, X_new_46 ) {
+    ( 0, 0 ) 0.448476470199952, 0.10847782845288265, 0.4430457013471654;
+    ( 0, 1 ) 0.2335175522988291, 0.5335558215403775, 0.23292662616079338;
+    ( 1, 0 ) 0.38742033679591564, 0.5994711538528702, 0.013108509351214107;
+    ( 1, 1 ) 0.33210154535784103, 0.3512799368517134, 0.31661851779044564;
+
+}
+probability ( HREKG | X_new_109, X_new_131 ) {
+    ( 0, 0 ) 0.34887278714588976, 0.2956523539696705, 0.35547485888443975;
+    ( 0, 1 ) 0.17463601360374612, 0.3292856701342661, 0.4960783162619878;
+    ( 1, 0 ) 0.02862873663397055, 0.8877967372334119, 0.0835745261326176;
+    ( 1, 1 ) 0.44899503585867157, 0.2696176124668004, 0.2813873516745281;
+
+}
+probability ( HRSAT ) {
+    table 0.7036434029267763, 0.0750748306504327, 0.22128176642279096 ;
+}
+probability ( HYPOVOLEMIA | DISCONNECT ) {
+    ( 0 ) 0.6175987483148696, 0.38240125168513045;
+    ( 1 ) 0.6712840841303678, 0.32871591586963217;
+
+}
+probability ( INSUFFANESTH | X_new_47 ) {
+    ( 0 ) 0.7666714586655036, 0.2333285413344964;
+    ( 1 ) 0.5640505262546106, 0.4359494737453895;
+
+}
+probability ( INTUBATION | X_new_60, HISTORY ) {
+    ( 0, 0 ) 0.03162790119370532, 0.46315619897986704, 0.5052158998264277;
+    ( 0, 1 ) 0.2881845073202692, 0.3419554968617752, 0.36985999581795564;
+    ( 1, 0 ) 0.004110026459025126, 0.38897345022953295, 0.6069165233114419;
+    ( 1, 1 ) 0.44051664581278627, 0.37400384215756616, 0.18547951202964758;
+
+}
+probability ( KINKEDTUBE | X_new_317, X_new_35 ) {
+    ( 0, 0 ) 0.508784979425526, 0.49121502057447397;
+    ( 0, 1 ) 0.4763255311091734, 0.5236744688908266;
+    ( 1, 0 ) 0.507169410828456, 0.49283058917154393;
+    ( 1, 1 ) 0.6127684694101256, 0.38723153058987436;
+
+}
+probability ( LVEDVOLUME | X_new_231, X_new_126, PULMEMBOLUS, X_new_175 ) {
+    ( 0, 0, 0, 0 ) 0.3842294576520617, 0.17941622772070473, 0.43635431462723356;
+    ( 0, 0, 0, 1 ) 0.1899705244872578, 0.10811249267321743, 0.7019169828395246;
+    ( 0, 0, 1, 0 ) 0.1394700910436952, 0.27825296743430833, 0.5822769415219964;
+    ( 0, 0, 1, 1 ) 0.5759176098706962, 0.2640423533503378, 0.16004003677896586;
+    ( 0, 1, 0, 0 ) 0.4766979302530171, 0.3620574990194899, 0.16124457072749293;
+    ( 0, 1, 0, 1 ) 0.19313460111391273, 0.44927645051069015, 0.3575889483753972;
+    ( 0, 1, 1, 0 ) 0.5224527782456516, 0.1787324895574404, 0.298814732196908;
+    ( 0, 1, 1, 1 ) 0.2544537902993558, 0.6137623240777609, 0.1317838856228834;
+    ( 1, 0, 0, 0 ) 0.21260742565178112, 0.4184321551380405, 0.36896041921017836;
+    ( 1, 0, 0, 1 ) 0.3951957743641754, 0.49630730868223216, 0.10849691695359241;
+    ( 1, 0, 1, 0 ) 0.33765870072771753, 0.36609824604832175, 0.29624305322396083;
+    ( 1, 0, 1, 1 ) 0.33805414212051793, 0.250121809786629, 0.411824048092853;
+    ( 1, 1, 0, 0 ) 0.2627068045105723, 0.4134526758236522, 0.32384051966577543;
+    ( 1, 1, 0, 1 ) 0.6223095944762688, 0.08214584968251142, 0.2955445558412198;
+    ( 1, 1, 1, 0 ) 0.01904721923508021, 0.45781504283043783, 0.5231377379344819;
+    ( 1, 1, 1, 1 ) 0.3694248071382372, 0.15941165743722951, 0.47116353542453326;
+
+}
+probability ( LVFAILURE | X_new_33, X_new_118, X_new_275 ) {
+    ( 0, 0, 0 ) 0.43674825568633646, 0.5632517443136635;
+    ( 0, 0, 1 ) 0.2782016367872707, 0.7217983632127293;
+    ( 0, 1, 0 ) 0.4961775792713143, 0.5038224207286858;
+    ( 0, 1, 1 ) 0.5304558787916124, 0.4695441212083877;
+    ( 1, 0, 0 ) 0.5016015225186882, 0.4983984774813119;
+    ( 1, 0, 1 ) 0.38191550199894375, 0.6180844980010564;
+    ( 1, 1, 0 ) 0.7279068062128542, 0.27209319378714575;
+    ( 1, 1, 1 ) 0.8736165965984867, 0.12638340340151336;
+
+}
+probability ( MINVOL | X_new_169 ) {
+    ( 0 ) 0.16970639542242222, 0.24732005659837414, 0.22751530584979934, 0.3554582421294043;
+    ( 1 ) 0.43731580527961245, 0.2502136644864592, 0.28424438922306455, 0.02822614101086382;
+
+}
+probability ( MINVOLSET | CVP ) {
+    ( 0 ) 0.08113615549644923, 0.1623217437374952, 0.7565421007660554;
+    ( 1 ) 0.3014830244961751, 0.24509383755745165, 0.4534231379463733;
+    ( 2 ) 0.5798412705847159, 0.3219543425572529, 0.09820438685803125;
+
+}
+probability ( PAP ) {
+    table 0.32566952144483335, 0.041119760677545775, 0.6332107178776208 ;
+}
+probability ( PCWP ) {
+    table 0.5432987864069383, 0.35636810817477843, 0.10033310541828329 ;
+}
+probability ( PRESS | X_new_189, X_new_25 ) {
+    ( 0, 0 ) 0.15832216805946847, 0.37403530807785884, 0.3156323678023181, 0.15201015606035462;
+    ( 0, 1 ) 0.12843165761666525, 0.1576081097852233, 0.47826857128346306, 0.2356916613146484;
+    ( 1, 0 ) 0.28107171096446526, 0.10434532735123668, 0.17250917307750177, 0.44207378860679625;
+    ( 1, 1 ) 0.29011647090381315, 0.2766534359270098, 0.41911232766009715, 0.014117765509079767;
+
+}
+probability ( PULMEMBOLUS | X_new_17, INTUBATION, VENTTUBE, X_new_30 ) {
+    ( 0, 0, 0, 0 ) 0.4925473508782186, 0.5074526491217815;
+    ( 0, 0, 0, 1 ) 0.7971918343739562, 0.2028081656260437;
+    ( 0, 0, 1, 0 ) 0.7675116838534135, 0.2324883161465864;
+    ( 0, 0, 1, 1 ) 0.7543131982406316, 0.24568680175936833;
+    ( 0, 0, 2, 0 ) 0.4904451520481514, 0.5095548479518486;
+    ( 0, 0, 2, 1 ) 0.38010145005175194, 0.6198985499482481;
+    ( 0, 0, 3, 0 ) 0.3984455528956051, 0.6015544471043949;
+    ( 0, 0, 3, 1 ) 0.28607309433259537, 0.7139269056674047;
+    ( 0, 1, 0, 0 ) 0.44895507391448014, 0.5510449260855199;
+    ( 0, 1, 0, 1 ) 0.209752493255604, 0.7902475067443959;
+    ( 0, 1, 1, 0 ) 0.20589647482498635, 0.7941035251750137;
+    ( 0, 1, 1, 1 ) 0.4227460518952884, 0.5772539481047115;
+    ( 0, 1, 2, 0 ) 0.6321650529159228, 0.36783494708407716;
+    ( 0, 1, 2, 1 ) 0.262990409342956, 0.737009590657044;
+    ( 0, 1, 3, 0 ) 0.7572838818832395, 0.24271611811676053;
+    ( 0, 1, 3, 1 ) 0.4169423958205139, 0.5830576041794862;
+    ( 0, 2, 0, 0 ) 0.5474228121972347, 0.45257718780276535;
+    ( 0, 2, 0, 1 ) 0.6053908999227744, 0.39460910007722566;
+    ( 0, 2, 1, 0 ) 0.4025696122772053, 0.5974303877227948;
+    ( 0, 2, 1, 1 ) 0.5241666183106718, 0.4758333816893282;
+    ( 0, 2, 2, 0 ) 0.9332553112752126, 0.06674468872478732;
+    ( 0, 2, 2, 1 ) 0.839497303644741, 0.16050269635525902;
+    ( 0, 2, 3, 0 ) 0.5920807423521692, 0.4079192576478307;
+    ( 0, 2, 3, 1 ) 0.4057157219463806, 0.5942842780536194;
+    ( 1, 0, 0, 0 ) 0.6419204490333148, 0.3580795509666853;
+    ( 1, 0, 0, 1 ) 0.22711937097296786, 0.7728806290270321;
+    ( 1, 0, 1, 0 ) 0.5392491611356703, 0.4607508388643296;
+    ( 1, 0, 1, 1 ) 0.08606680434337144, 0.9139331956566286;
+    ( 1, 0, 2, 0 ) 0.4163756658141457, 0.5836243341858544;
+    ( 1, 0, 2, 1 ) 0.8026911712970844, 0.19730882870291552;
+    ( 1, 0, 3, 0 ) 0.19681462752220605, 0.8031853724777939;
+    ( 1, 0, 3, 1 ) 0.500615211082242, 0.4993847889177579;
+    ( 1, 1, 0, 0 ) 0.2278526055916717, 0.7721473944083284;
+    ( 1, 1, 0, 1 ) 0.9370722330889627, 0.06292776691103723;
+    ( 1, 1, 1, 0 ) 0.5554969075806112, 0.44450309241938885;
+    ( 1, 1, 1, 1 ) 0.3698486486222623, 0.6301513513777377;
+    ( 1, 1, 2, 0 ) 0.25672384064352527, 0.7432761593564747;
+    ( 1, 1, 2, 1 ) 0.6354839157612973, 0.3645160842387027;
+    ( 1, 1, 3, 0 ) 0.4992321275634845, 0.5007678724365154;
+    ( 1, 1, 3, 1 ) 0.5562152364107604, 0.44378476358923963;
+    ( 1, 2, 0, 0 ) 0.3352834531689666, 0.6647165468310333;
+    ( 1, 2, 0, 1 ) 0.027309684691057566, 0.9726903153089425;
+    ( 1, 2, 1, 0 ) 0.014490494128861, 0.985509505871139;
+    ( 1, 2, 1, 1 ) 0.4592606324544857, 0.5407393675455143;
+    ( 1, 2, 2, 0 ) 0.2868629289961893, 0.7131370710038107;
+    ( 1, 2, 2, 1 ) 0.6463928089730014, 0.35360719102699856;
+    ( 1, 2, 3, 0 ) 0.5059430263085652, 0.4940569736914347;
+    ( 1, 2, 3, 1 ) 0.46615165669273617, 0.5338483433072638;
+
+}
+probability ( PVSAT ) {
+    table 0.017419886572881755, 0.8917649385674807, 0.09081517485963747 ;
+}
+probability ( SAO2 | X_new_330 ) {
+    ( 0 ) 0.239606466286032, 0.7571405002480552, 0.0032530334659127908;
+    ( 1 ) 0.07719628764601168, 0.46567821034292034, 0.457125502011068;
+
+}
+probability ( SHUNT | X_new_132, X_new_50, X_new_287 ) {
+    ( 0, 0, 0 ) 0.5807039625540112, 0.4192960374459888;
+    ( 0, 0, 1 ) 0.9988301781872893, 0.0011698218127108287;
+    ( 0, 1, 0 ) 0.9447539874444496, 0.055246012555550394;
+    ( 0, 1, 1 ) 0.07644051808518601, 0.9235594819148141;
+    ( 1, 0, 0 ) 0.5111970943935361, 0.4888029056064638;
+    ( 1, 0, 1 ) 0.24062118803039725, 0.7593788119696027;
+    ( 1, 1, 0 ) 0.1707939774594828, 0.8292060225405171;
+    ( 1, 1, 1 ) 0.07573043504558359, 0.9242695649544165;
+
+}
+probability ( STROKEVOLUME | X_new_73, X_new_34 ) {
+    ( 0, 0 ) 0.42479435191038006, 0.20074330704640336, 0.37446234104321663;
+    ( 0, 1 ) 0.03003462941003496, 0.5674199239981512, 0.4025454465918138;
+    ( 1, 0 ) 0.46021001620911745, 0.31610890714284634, 0.22368107664803621;
+    ( 1, 1 ) 0.1516690281289208, 0.5120356589332187, 0.33629531293786047;
+
+}
+probability ( TPR | X_new_299, X_new_331, X_new_56, X_new_176 ) {
+    ( 0, 0, 0, 0 ) 0.2782418562421413, 0.4996838985495748, 0.22207424520828392;
+    ( 0, 0, 0, 1 ) 0.39181000463333404, 0.5464676703245466, 0.06172232504211938;
+    ( 0, 0, 1, 0 ) 0.4964437296368546, 0.4294749485390836, 0.0740813218240618;
+    ( 0, 0, 1, 1 ) 0.2822325038090237, 0.41699123819288547, 0.3007762579980908;
+    ( 0, 1, 0, 0 ) 0.022697281013127932, 0.5247967798232268, 0.4525059391636453;
+    ( 0, 1, 0, 1 ) 0.10430214867017565, 0.4367358379000218, 0.4589620134298026;
+    ( 0, 1, 1, 0 ) 0.04640927660732133, 0.5184078838143594, 0.4351828395783193;
+    ( 0, 1, 1, 1 ) 0.5004749467026909, 0.14621135923729206, 0.3533136940600171;
+    ( 1, 0, 0, 0 ) 0.4370753484910166, 0.10165116178471523, 0.4612734897242682;
+    ( 1, 0, 0, 1 ) 0.19853438186008876, 0.6776413653435689, 0.12382425279634227;
+    ( 1, 0, 1, 0 ) 0.1431294077728704, 0.5538089872957354, 0.3030616049313942;
+    ( 1, 0, 1, 1 ) 0.4047208684564443, 0.33595842891576005, 0.2593207026277956;
+    ( 1, 1, 0, 0 ) 0.47824825318765246, 0.11116823961624556, 0.410583507196102;
+    ( 1, 1, 0, 1 ) 0.3764043077449495, 0.46133526455396473, 0.16226042770108576;
+    ( 1, 1, 1, 0 ) 0.2648762472265335, 0.403020333712641, 0.33210341906082536;
+    ( 1, 1, 1, 1 ) 0.33405326067136737, 0.3334031910598063, 0.33254354826882626;
+
+}
+probability ( VENTALV | X_new_287 ) {
+    ( 0 ) 0.24506252064223044, 0.18717443223202085, 0.29166753741329726, 0.2760955097124515;
+    ( 1 ) 0.2814068574334424, 0.1754427568767365, 0.2857800553639668, 0.2573703303258543;
+
+}
+probability ( VENTLUNG ) {
+    table 0.47840640599130546, 0.08859692256008424, 0.07256970110781183, 0.36042697034079857 ;
+}
+probability ( VENTMACH ) {
+    table 0.18445123989841608, 0.25037200731269427, 0.253330803290833, 0.3118459494980565 ;
+}
+probability ( VENTTUBE ) {
+    table 0.08501201708177282, 0.33855753831702695, 0.22767741643369682, 0.34875302816750325 ;
+}
+probability ( X_new_1 | X_new_30 ) {
+    ( 0 ) 0.3206831095837103, 0.6793168904162896;
+    ( 1 ) 0.4860564306307749, 0.5139435693692251;
+
+}
+probability ( X_new_10 | MINVOLSET ) {
+    ( 0 ) 0.4498168594717099, 0.5501831405282901;
+    ( 1 ) 0.7467845990236369, 0.25321540097636314;
+    ( 2 ) 0.15399799799004762, 0.8460020020099525;
+
+}
+probability ( X_new_100 | X_new_23 ) {
+    ( 0 ) 0.026559060660559897, 0.9734409393394402;
+    ( 1 ) 0.13942593169101214, 0.8605740683089879;
+
+}
+probability ( X_new_101 | X_new_275, X_new_178 ) {
+    ( 0, 0 ) 0.9154685805614952, 0.08453141943850492;
+    ( 0, 1 ) 0.5056410256190911, 0.494358974380909;
+    ( 1, 0 ) 0.5698151122274586, 0.43018488777254127;
+    ( 1, 1 ) 0.06366442214945148, 0.9363355778505486;
+
+}
+probability ( X_new_102 ) {
+    table 0.4992924569296407, 0.5007075430703594 ;
+}
+probability ( X_new_103 | X_new_154, X_new_332 ) {
+    ( 0, 0 ) 0.3041917504899635, 0.6958082495100365;
+    ( 0, 1 ) 0.48906853857718724, 0.5109314614228128;
+    ( 1, 0 ) 0.9254623656547789, 0.07453763434522115;
+    ( 1, 1 ) 0.2584719444632238, 0.7415280555367761;
+
+}
+probability ( X_new_104 | X_new_241 ) {
+    ( 0 ) 0.32739867600476713, 0.6726013239952329;
+    ( 1 ) 0.1921791480853697, 0.8078208519146303;
+
+}
+probability ( X_new_105 | X_new_259 ) {
+    ( 0 ) 0.1190080068554237, 0.8809919931445763;
+    ( 1 ) 0.5554586588463057, 0.44454134115369415;
+
+}
+probability ( X_new_106 | X_new_240, X_new_248 ) {
+    ( 0, 0 ) 0.8164931632398502, 0.18350683676014976;
+    ( 0, 1 ) 0.5888825721513968, 0.41111742784860317;
+    ( 1, 0 ) 0.4889181955636634, 0.5110818044363366;
+    ( 1, 1 ) 0.21440724542030265, 0.7855927545796973;
+
+}
+probability ( X_new_107 | X_new_128 ) {
+    ( 0 ) 0.6985586289308555, 0.3014413710691444;
+    ( 1 ) 0.7126520434403151, 0.2873479565596849;
+
+}
+probability ( X_new_108 ) {
+    table 0.8480876328459109, 0.15191236715408912 ;
+}
+probability ( X_new_109 | X_new_4, X_new_46, X_new_277 ) {
+    ( 0, 0, 0 ) 0.7132811101748042, 0.2867188898251958;
+    ( 0, 0, 1 ) 0.22978534714091364, 0.7702146528590864;
+    ( 0, 1, 0 ) 0.35984864570907366, 0.6401513542909263;
+    ( 0, 1, 1 ) 0.7722480992471017, 0.22775190075289828;
+    ( 1, 0, 0 ) 0.9105907816415247, 0.08940921835847525;
+    ( 1, 0, 1 ) 0.5248414394601847, 0.4751585605398153;
+    ( 1, 1, 0 ) 0.8559089638821069, 0.14409103611789315;
+    ( 1, 1, 1 ) 0.3748000460861729, 0.6251999539138271;
+
+}
+probability ( X_new_11 ) {
+    table 0.6008221135901035, 0.39917788640989654 ;
+}
+probability ( X_new_110 | X_new_90 ) {
+    ( 0 ) 0.4083334430124996, 0.5916665569875004;
+    ( 1 ) 0.24927848475658154, 0.7507215152434185;
+
+}
+probability ( X_new_111 ) {
+    table 0.7767587005185691, 0.22324129948143087 ;
+}
+probability ( X_new_112 | X_new_103, X_new_308, X_new_189, X_new_76 ) {
+    ( 0, 0, 0, 0 ) 0.47928327296739653, 0.5207167270326034;
+    ( 0, 0, 0, 1 ) 0.5103596545803185, 0.4896403454196816;
+    ( 0, 0, 1, 0 ) 0.49186627033379693, 0.5081337296662032;
+    ( 0, 0, 1, 1 ) 0.20203114335201322, 0.7979688566479868;
+    ( 0, 1, 0, 0 ) 0.27683227572396174, 0.7231677242760383;
+    ( 0, 1, 0, 1 ) 0.6597678833197571, 0.34023211668024295;
+    ( 0, 1, 1, 0 ) 0.9852296330611859, 0.014770366938814061;
+    ( 0, 1, 1, 1 ) 0.14968763535452928, 0.8503123646454708;
+    ( 1, 0, 0, 0 ) 0.6580601165619892, 0.3419398834380108;
+    ( 1, 0, 0, 1 ) 0.7585452502982138, 0.24145474970178624;
+    ( 1, 0, 1, 0 ) 0.10783691908981652, 0.8921630809101835;
+    ( 1, 0, 1, 1 ) 0.44444037236638734, 0.5555596276336128;
+    ( 1, 1, 0, 0 ) 0.6566120932239923, 0.3433879067760077;
+    ( 1, 1, 0, 1 ) 0.9770430425981564, 0.022956957401843548;
+    ( 1, 1, 1, 0 ) 0.718987078795123, 0.281012921204877;
+    ( 1, 1, 1, 1 ) 0.4959007043359562, 0.5040992956640439;
+
+}
+probability ( X_new_113 ) {
+    table 0.5168333474128564, 0.4831666525871438 ;
+}
+probability ( X_new_114 ) {
+    table 0.2930658552046579, 0.706934144795342 ;
+}
+probability ( X_new_115 | X_new_328 ) {
+    ( 0 ) 0.6291057952213482, 0.3708942047786518;
+    ( 1 ) 0.7298806953843016, 0.2701193046156985;
+
+}
+probability ( X_new_116 | X_new_181, X_new_122, X_new_27 ) {
+    ( 0, 0, 0 ) 0.7108935399094518, 0.28910646009054813;
+    ( 0, 0, 1 ) 0.5597059749769765, 0.4402940250230235;
+    ( 0, 1, 0 ) 0.29398206580112246, 0.7060179341988775;
+    ( 0, 1, 1 ) 0.8846122071064771, 0.11538779289352283;
+    ( 1, 0, 0 ) 0.7401245625655017, 0.2598754374344982;
+    ( 1, 0, 1 ) 0.4923866260298067, 0.5076133739701932;
+    ( 1, 1, 0 ) 0.9519641501293089, 0.04803584987069118;
+    ( 1, 1, 1 ) 0.68154292043617, 0.3184570795638299;
+
+}
+probability ( X_new_117 ) {
+    table 0.7657082434223582, 0.23429175657764179 ;
+}
+probability ( X_new_118 | X_new_140 ) {
+    ( 0 ) 0.7164249382657022, 0.28357506173429786;
+    ( 1 ) 0.5609456651858946, 0.4390543348141053;
+
+}
+probability ( X_new_119 | X_new_176, X_new_27, X_new_179 ) {
+    ( 0, 0, 0 ) 0.19209214398235303, 0.807907856017647;
+    ( 0, 0, 1 ) 0.48426176423213024, 0.5157382357678698;
+    ( 0, 1, 0 ) 0.4697296810319013, 0.5302703189680987;
+    ( 0, 1, 1 ) 0.8805584714797542, 0.11944152852024584;
+    ( 1, 0, 0 ) 0.9591952204221474, 0.040804779577852425;
+    ( 1, 0, 1 ) 0.5937953815709747, 0.4062046184290254;
+    ( 1, 1, 0 ) 0.7068129360802351, 0.293187063919765;
+    ( 1, 1, 1 ) 0.5185725726330932, 0.4814274273669068;
+
+}
+probability ( X_new_12 ) {
+    table 0.8438722225877796, 0.15612777741222036 ;
+}
+probability ( X_new_120 | X_new_55, X_new_101, X_new_133 ) {
+    ( 0, 0, 0 ) 0.9187133514522148, 0.08128664854778518;
+    ( 0, 0, 1 ) 0.2917454704129373, 0.7082545295870627;
+    ( 0, 1, 0 ) 0.481372355643852, 0.5186276443561479;
+    ( 0, 1, 1 ) 0.40641047079341325, 0.5935895292065867;
+    ( 1, 0, 0 ) 0.4135772931714658, 0.5864227068285341;
+    ( 1, 0, 1 ) 0.5518896771980524, 0.4481103228019477;
+    ( 1, 1, 0 ) 0.8980067785103896, 0.10199322148961051;
+    ( 1, 1, 1 ) 0.33171808083280374, 0.6682819191671961;
+
+}
+probability ( X_new_121 | X_new_261, X_new_283 ) {
+    ( 0, 0 ) 0.035113247662059574, 0.9648867523379404;
+    ( 0, 1 ) 0.6033693702918416, 0.3966306297081585;
+    ( 1, 0 ) 0.5544327448621917, 0.4455672551378082;
+    ( 1, 1 ) 0.9318958387084905, 0.06810416129150959;
+
+}
+probability ( X_new_122 | X_new_25 ) {
+    ( 0 ) 0.6302144359496116, 0.3697855640503885;
+    ( 1 ) 0.6248359355466531, 0.37516406445334693;
+
+}
+probability ( X_new_123 | X_new_146, X_new_212 ) {
+    ( 0, 0 ) 0.26317670728385406, 0.736823292716146;
+    ( 0, 1 ) 0.7716422492129669, 0.22835775078703321;
+    ( 1, 0 ) 0.5336894638429636, 0.46631053615703644;
+    ( 1, 1 ) 0.7339133966392785, 0.26608660336072154;
+
+}
+probability ( X_new_124 | BP, ANAPHYLAXIS, X_new_37 ) {
+    ( 0, 0, 0 ) 0.47309192118982385, 0.5269080788101762;
+    ( 0, 0, 1 ) 0.8183813088347486, 0.18161869116525142;
+    ( 0, 1, 0 ) 0.16386068186503655, 0.8361393181349634;
+    ( 0, 1, 1 ) 0.8048821526517231, 0.19511784734827695;
+    ( 1, 0, 0 ) 0.25754755071806473, 0.7424524492819352;
+    ( 1, 0, 1 ) 0.2950213810975544, 0.7049786189024456;
+    ( 1, 1, 0 ) 0.7240655974073588, 0.27593440259264124;
+    ( 1, 1, 1 ) 0.41403242453110223, 0.5859675754688978;
+    ( 2, 0, 0 ) 0.8378835053198204, 0.1621164946801796;
+    ( 2, 0, 1 ) 0.6776540708111355, 0.32234592918886457;
+    ( 2, 1, 0 ) 0.833869499336097, 0.166130500663903;
+    ( 2, 1, 1 ) 0.5809575575210687, 0.41904244247893135;
+
+}
+probability ( X_new_125 | X_new_93 ) {
+    ( 0 ) 0.4435024396704525, 0.5564975603295476;
+    ( 1 ) 0.40786986418377474, 0.5921301358162252;
+
+}
+probability ( X_new_126 | X_new_49 ) {
+    ( 0 ) 0.4012067156925021, 0.598793284307498;
+    ( 1 ) 0.5528723059707509, 0.44712769402924907;
+
+}
+probability ( X_new_127 | X_new_209, X_new_300 ) {
+    ( 0, 0 ) 0.4231049286110262, 0.5768950713889739;
+    ( 0, 1 ) 0.0825962082783309, 0.9174037917216691;
+    ( 1, 0 ) 0.9369762231398157, 0.06302377686018437;
+    ( 1, 1 ) 0.5546901892467104, 0.44530981075328946;
+
+}
+probability ( X_new_128 ) {
+    table 0.4369872022384643, 0.5630127977615358 ;
+}
+probability ( X_new_129 ) {
+    table 0.5123693445940823, 0.4876306554059177 ;
+}
+probability ( X_new_13 | STROKEVOLUME ) {
+    ( 0 ) 0.6781864943850966, 0.3218135056149034;
+    ( 1 ) 0.4722144389580564, 0.5277855610419436;
+    ( 2 ) 0.5120029443199988, 0.4879970556800011;
+
+}
+probability ( X_new_130 | X_new_77, X_new_162, VENTALV ) {
+    ( 0, 0, 0 ) 0.2770436924643575, 0.7229563075356424;
+    ( 0, 0, 1 ) 0.5853043785100054, 0.41469562148999467;
+    ( 0, 0, 2 ) 0.20514052195537574, 0.7948594780446243;
+    ( 0, 0, 3 ) 0.52363696316882, 0.4763630368311799;
+    ( 0, 1, 0 ) 0.8215447087218483, 0.1784552912781517;
+    ( 0, 1, 1 ) 0.4443383134968017, 0.5556616865031982;
+    ( 0, 1, 2 ) 0.1287880722009048, 0.8712119277990953;
+    ( 0, 1, 3 ) 0.09950733401026264, 0.9004926659897373;
+    ( 1, 0, 0 ) 0.3532700035712902, 0.6467299964287099;
+    ( 1, 0, 1 ) 0.38329411380051204, 0.616705886199488;
+    ( 1, 0, 2 ) 0.03471011350813658, 0.9652898864918634;
+    ( 1, 0, 3 ) 0.6618865696008613, 0.3381134303991386;
+    ( 1, 1, 0 ) 0.49368262060594215, 0.5063173793940579;
+    ( 1, 1, 1 ) 0.8679423886590787, 0.1320576113409213;
+    ( 1, 1, 2 ) 0.6071014648520897, 0.3928985351479103;
+    ( 1, 1, 3 ) 0.5160368264576948, 0.4839631735423052;
+
+}
+probability ( X_new_131 ) {
+    table 0.5774539295522312, 0.4225460704477689 ;
+}
+probability ( X_new_132 | X_new_117, X_new_317 ) {
+    ( 0, 0 ) 0.4904848770972327, 0.5095151229027673;
+    ( 0, 1 ) 0.9928329334220287, 0.007167066577971244;
+    ( 1, 0 ) 0.44579556679234394, 0.5542044332076561;
+    ( 1, 1 ) 0.18269098203114761, 0.8173090179688524;
+
+}
+probability ( X_new_133 | X_new_142 ) {
+    ( 0 ) 0.30172089298048244, 0.6982791070195175;
+    ( 1 ) 0.9434983522986384, 0.05650164770136145;
+
+}
+probability ( X_new_134 | X_new_108, X_new_310 ) {
+    ( 0, 0 ) 0.0856239729298743, 0.9143760270701258;
+    ( 0, 1 ) 0.7046901869801026, 0.2953098130198974;
+    ( 1, 0 ) 0.5456649578750633, 0.4543350421249366;
+    ( 1, 1 ) 0.48379918170936553, 0.5162008182906346;
+
+}
+probability ( X_new_135 | X_new_96 ) {
+    ( 0 ) 0.7991586555616564, 0.20084134443834356;
+    ( 1 ) 0.588271128722938, 0.4117288712770621;
+
+}
+probability ( X_new_136 | X_new_9, X_new_262, ARTCO2, X_new_243 ) {
+    ( 0, 0, 0, 0 ) 0.21926036123090356, 0.7807396387690964;
+    ( 0, 0, 0, 1 ) 0.2845212780559851, 0.7154787219440149;
+    ( 0, 0, 1, 0 ) 0.476901752633649, 0.523098247366351;
+    ( 0, 0, 1, 1 ) 0.4655438991631075, 0.5344561008368924;
+    ( 0, 0, 2, 0 ) 0.5883277823795403, 0.41167221762045975;
+    ( 0, 0, 2, 1 ) 0.09781276795150738, 0.9021872320484925;
+    ( 0, 1, 0, 0 ) 0.5438532408908754, 0.45614675910912467;
+    ( 0, 1, 0, 1 ) 0.5099541446426035, 0.49004585535739653;
+    ( 0, 1, 1, 0 ) 0.28052201492709455, 0.7194779850729054;
+    ( 0, 1, 1, 1 ) 0.2351977330852261, 0.7648022669147739;
+    ( 0, 1, 2, 0 ) 0.3320864660836821, 0.6679135339163179;
+    ( 0, 1, 2, 1 ) 0.15042472636858883, 0.849575273631411;
+    ( 1, 0, 0, 0 ) 0.48445680004516073, 0.5155431999548392;
+    ( 1, 0, 0, 1 ) 0.7042699633763342, 0.29573003662366576;
+    ( 1, 0, 1, 0 ) 0.7986098069804971, 0.20139019301950284;
+    ( 1, 0, 1, 1 ) 0.7403649546066153, 0.2596350453933846;
+    ( 1, 0, 2, 0 ) 0.5130794334954918, 0.48692056650450827;
+    ( 1, 0, 2, 1 ) 0.8704392111225472, 0.12956078887745281;
+    ( 1, 1, 0, 0 ) 0.5458791919455231, 0.4541208080544768;
+    ( 1, 1, 0, 1 ) 0.4721999860611204, 0.5278000139388797;
+    ( 1, 1, 1, 0 ) 0.4015889209362938, 0.5984110790637062;
+    ( 1, 1, 1, 1 ) 0.6315926968013353, 0.36840730319866466;
+    ( 1, 1, 2, 0 ) 0.3997903421056034, 0.6002096578943966;
+    ( 1, 1, 2, 1 ) 0.5252969555842686, 0.4747030444157315;
+
+}
+probability ( X_new_137 | X_new_31 ) {
+    ( 0 ) 0.8005449701139582, 0.19945502988604188;
+    ( 1 ) 0.5299392541656525, 0.4700607458343475;
+
+}
+probability ( X_new_138 | X_new_2, X_new_17 ) {
+    ( 0, 0 ) 0.5730228392888752, 0.4269771607111248;
+    ( 0, 1 ) 0.4471674514030396, 0.5528325485969603;
+    ( 1, 0 ) 0.9088465064927138, 0.09115349350728624;
+    ( 1, 1 ) 0.44475059213754464, 0.5552494078624554;
+
+}
+probability ( X_new_139 | X_new_223, X_new_312, X_new_143, X_new_212 ) {
+    ( 0, 0, 0, 0 ) 0.28467062924573827, 0.7153293707542618;
+    ( 0, 0, 0, 1 ) 0.1554816028509629, 0.844518397149037;
+    ( 0, 0, 1, 0 ) 0.4743100388903939, 0.5256899611096061;
+    ( 0, 0, 1, 1 ) 0.4975193585667744, 0.5024806414332256;
+    ( 0, 1, 0, 0 ) 0.4256186345291703, 0.5743813654708297;
+    ( 0, 1, 0, 1 ) 0.6946680299867785, 0.3053319700132216;
+    ( 0, 1, 1, 0 ) 0.3031707353598844, 0.6968292646401156;
+    ( 0, 1, 1, 1 ) 0.5023252579688607, 0.49767474203113926;
+    ( 1, 0, 0, 0 ) 0.0280308430585005, 0.9719691569414994;
+    ( 1, 0, 0, 1 ) 0.4060128729945632, 0.5939871270054369;
+    ( 1, 0, 1, 0 ) 0.5411425283205997, 0.4588574716794002;
+    ( 1, 0, 1, 1 ) 0.47671460761940915, 0.5232853923805908;
+    ( 1, 1, 0, 0 ) 0.48701264324611454, 0.5129873567538854;
+    ( 1, 1, 0, 1 ) 0.6452036358963026, 0.3547963641036974;
+    ( 1, 1, 1, 0 ) 0.45947553382618417, 0.5405244661738158;
+    ( 1, 1, 1, 1 ) 0.7612913671555542, 0.23870863284444577;
+
+}
+probability ( X_new_14 | X_new_168, X_new_255, VENTTUBE ) {
+    ( 0, 0, 0 ) 0.4248260774660621, 0.5751739225339378;
+    ( 0, 0, 1 ) 0.8426563041284081, 0.157343695871592;
+    ( 0, 0, 2 ) 0.4468358693664741, 0.5531641306335259;
+    ( 0, 0, 3 ) 0.7423797883222106, 0.25762021167778937;
+    ( 0, 1, 0 ) 0.05563895902970608, 0.9443610409702939;
+    ( 0, 1, 1 ) 0.40589988505641944, 0.5941001149435805;
+    ( 0, 1, 2 ) 0.2254080705517782, 0.7745919294482219;
+    ( 0, 1, 3 ) 0.004881091841924521, 0.9951189081580754;
+    ( 1, 0, 0 ) 0.7496138196978205, 0.2503861803021794;
+    ( 1, 0, 1 ) 0.7497053328451195, 0.25029466715488047;
+    ( 1, 0, 2 ) 0.7002528819788315, 0.2997471180211684;
+    ( 1, 0, 3 ) 0.2831660793282037, 0.7168339206717963;
+    ( 1, 1, 0 ) 0.23355148549637428, 0.7664485145036257;
+    ( 1, 1, 1 ) 0.9160002730430237, 0.08399972695697637;
+    ( 1, 1, 2 ) 0.17033690705594245, 0.8296630929440576;
+    ( 1, 1, 3 ) 0.5674765943498251, 0.43252340565017494;
+
+}
+probability ( X_new_140 ) {
+    table 0.499128646842232, 0.500871353157768 ;
+}
+probability ( X_new_141 | X_new_119, X_new_34, X_new_317, HISTORY ) {
+    ( 0, 0, 0, 0 ) 0.492056002299631, 0.507943997700369;
+    ( 0, 0, 0, 1 ) 0.7231801057059202, 0.27681989429407977;
+    ( 0, 0, 1, 0 ) 0.4567296913800067, 0.5432703086199934;
+    ( 0, 0, 1, 1 ) 0.6687760170297609, 0.33122398297023914;
+    ( 0, 1, 0, 0 ) 0.6466727030479421, 0.3533272969520579;
+    ( 0, 1, 0, 1 ) 0.5586470375897051, 0.4413529624102949;
+    ( 0, 1, 1, 0 ) 0.4237388794758183, 0.5762611205241818;
+    ( 0, 1, 1, 1 ) 0.25664208268877126, 0.7433579173112287;
+    ( 1, 0, 0, 0 ) 0.136080926493262, 0.863919073506738;
+    ( 1, 0, 0, 1 ) 0.34539977356552093, 0.6546002264344791;
+    ( 1, 0, 1, 0 ) 0.39980211946077887, 0.6001978805392211;
+    ( 1, 0, 1, 1 ) 0.8321508541791464, 0.1678491458208536;
+    ( 1, 1, 0, 0 ) 0.1904965431601214, 0.8095034568398786;
+    ( 1, 1, 0, 1 ) 0.3166405537726721, 0.6833594462273279;
+    ( 1, 1, 1, 0 ) 0.10674651617884438, 0.8932534838211557;
+    ( 1, 1, 1, 1 ) 0.710018544199173, 0.2899814558008271;
+
+}
+probability ( X_new_142 | X_new_265 ) {
+    ( 0 ) 0.37519374382683524, 0.6248062561731647;
+    ( 1 ) 0.594621228121624, 0.40537877187837595;
+
+}
+probability ( X_new_143 | X_new_277 ) {
+    ( 0 ) 0.8346834986715332, 0.16531650132846668;
+    ( 1 ) 0.28062821536894184, 0.7193717846310582;
+
+}
+probability ( X_new_144 | X_new_78 ) {
+    ( 0 ) 0.6636616181534456, 0.33633838184655446;
+    ( 1 ) 0.4232067262193619, 0.576793273780638;
+
+}
+probability ( X_new_145 | HYPOVOLEMIA, X_new_268, X_new_204 ) {
+    ( 0, 0, 0 ) 0.7349375894770753, 0.2650624105229246;
+    ( 0, 0, 1 ) 0.2654476889579685, 0.7345523110420314;
+    ( 0, 1, 0 ) 0.41419431288635716, 0.5858056871136428;
+    ( 0, 1, 1 ) 0.3879726355003735, 0.6120273644996266;
+    ( 1, 0, 0 ) 0.6274076418528995, 0.37259235814710046;
+    ( 1, 0, 1 ) 0.20449947012932693, 0.795500529870673;
+    ( 1, 1, 0 ) 0.9077872413403046, 0.09221275865969544;
+    ( 1, 1, 1 ) 0.40088096705306986, 0.5991190329469301;
+
+}
+probability ( X_new_146 | X_new_179, X_new_33 ) {
+    ( 0, 0 ) 0.5777295408080442, 0.42227045919195594;
+    ( 0, 1 ) 0.08502454119787091, 0.9149754588021292;
+    ( 1, 0 ) 0.5092557240317551, 0.4907442759682448;
+    ( 1, 1 ) 0.5768505847352337, 0.4231494152647664;
+
+}
+probability ( X_new_147 | X_new_129, X_new_2, X_new_181 ) {
+    ( 0, 0, 0 ) 0.08543022954909939, 0.9145697704509006;
+    ( 0, 0, 1 ) 0.5576509454319606, 0.4423490545680394;
+    ( 0, 1, 0 ) 0.2931282681321583, 0.7068717318678417;
+    ( 0, 1, 1 ) 0.6421757312361309, 0.3578242687638691;
+    ( 1, 0, 0 ) 0.06252279596994037, 0.9374772040300596;
+    ( 1, 0, 1 ) 0.5695202407786978, 0.43047975922130227;
+    ( 1, 1, 0 ) 0.1290131966870759, 0.8709868033129241;
+    ( 1, 1, 1 ) 0.28258404095674317, 0.7174159590432568;
+
+}
+probability ( X_new_148 | X_new_151, INTUBATION ) {
+    ( 0, 0 ) 0.41622822522562647, 0.5837717747743736;
+    ( 0, 1 ) 0.8411083249127792, 0.1588916750872208;
+    ( 0, 2 ) 0.6322027924564435, 0.3677972075435564;
+    ( 1, 0 ) 0.6572494245327404, 0.3427505754672595;
+    ( 1, 1 ) 0.6142541334753389, 0.3857458665246611;
+    ( 1, 2 ) 0.4442652141901771, 0.5557347858098228;
+
+}
+probability ( X_new_149 | X_new_31 ) {
+    ( 0 ) 0.07087914921273492, 0.929120850787265;
+    ( 1 ) 0.038610461334701744, 0.9613895386652983;
+
+}
+probability ( X_new_15 | VENTMACH ) {
+    ( 0 ) 0.47755128937830316, 0.522448710621697;
+    ( 1 ) 0.7759108592056916, 0.22408914079430842;
+    ( 2 ) 0.35999335804032223, 0.6400066419596778;
+    ( 3 ) 0.6848714541741893, 0.3151285458258106;
+
+}
+probability ( X_new_150 | X_new_58 ) {
+    ( 0 ) 0.8698818413816236, 0.13011815861837636;
+    ( 1 ) 0.6896502928836393, 0.3103497071163608;
+
+}
+probability ( X_new_151 | X_new_86 ) {
+    ( 0 ) 0.5084950003600653, 0.49150499963993466;
+    ( 1 ) 0.5990739218287995, 0.40092607817120046;
+
+}
+probability ( X_new_152 | X_new_289, X_new_174 ) {
+    ( 0, 0 ) 0.4974604033747537, 0.5025395966252463;
+    ( 0, 1 ) 0.549423565117765, 0.450576434882235;
+    ( 1, 0 ) 0.7371800248285, 0.2628199751715001;
+    ( 1, 1 ) 0.5839133052685648, 0.41608669473143517;
+
+}
+probability ( X_new_153 | X_new_311 ) {
+    ( 0 ) 0.4151020121529501, 0.5848979878470498;
+    ( 1 ) 0.4092640401773866, 0.5907359598226134;
+
+}
+probability ( X_new_154 | X_new_270, X_new_149, X_new_208 ) {
+    ( 0, 0, 0 ) 0.8335012539184016, 0.1664987460815984;
+    ( 0, 0, 1 ) 0.7296761564562203, 0.27032384354377975;
+    ( 0, 1, 0 ) 0.4043102730862947, 0.5956897269137054;
+    ( 0, 1, 1 ) 0.22030679076857013, 0.7796932092314299;
+    ( 1, 0, 0 ) 0.8416365178144454, 0.15836348218555468;
+    ( 1, 0, 1 ) 0.35102247082432614, 0.6489775291756739;
+    ( 1, 1, 0 ) 0.5213535740828659, 0.4786464259171341;
+    ( 1, 1, 1 ) 0.45565909309578734, 0.5443409069042127;
+
+}
+probability ( X_new_155 | HISTORY ) {
+    ( 0 ) 0.6793072637273195, 0.32069273627268047;
+    ( 1 ) 0.4999770256657864, 0.5000229743342136;
+
+}
+probability ( X_new_156 ) {
+    table 0.49619340949624097, 0.503806590503759 ;
+}
+probability ( X_new_157 | X_new_22, X_new_62 ) {
+    ( 0, 0 ) 0.52877436482248, 0.47122563517752014;
+    ( 0, 1 ) 0.9755240573323776, 0.02447594266762234;
+    ( 1, 0 ) 0.024074184369874962, 0.975925815630125;
+    ( 1, 1 ) 0.46080914162136777, 0.5391908583786322;
+
+}
+probability ( X_new_158 | X_new_277 ) {
+    ( 0 ) 0.8079816253627573, 0.1920183746372427;
+    ( 1 ) 0.6352015398998824, 0.3647984601001176;
+
+}
+probability ( X_new_159 | X_new_17 ) {
+    ( 0 ) 0.5877573222274391, 0.4122426777725609;
+    ( 1 ) 0.4161737115984934, 0.5838262884015066;
+
+}
+probability ( X_new_16 | X_new_108 ) {
+    ( 0 ) 0.5622521105613344, 0.4377478894386656;
+    ( 1 ) 0.13133425481693004, 0.86866574518307;
+
+}
+probability ( X_new_160 | X_new_71 ) {
+    ( 0 ) 0.07183360186517257, 0.9281663981348275;
+    ( 1 ) 0.2606647566971789, 0.7393352433028211;
+
+}
+probability ( X_new_161 ) {
+    table 0.506676686986595, 0.493323313013405 ;
+}
+probability ( X_new_162 | X_new_124 ) {
+    ( 0 ) 0.8380681484527958, 0.16193185154720421;
+    ( 1 ) 0.3012428639366302, 0.6987571360633698;
+
+}
+probability ( X_new_163 ) {
+    table 0.3319658874448567, 0.6680341125551432 ;
+}
+probability ( X_new_164 | X_new_295 ) {
+    ( 0 ) 0.5485287920239655, 0.4514712079760345;
+    ( 1 ) 0.26754188325819395, 0.732458116741806;
+
+}
+probability ( X_new_165 | X_new_104, X_new_329 ) {
+    ( 0, 0 ) 0.7395392765069285, 0.26046072349307137;
+    ( 0, 1 ) 0.3863843361534239, 0.6136156638465762;
+    ( 1, 0 ) 0.10944291633235279, 0.8905570836676471;
+    ( 1, 1 ) 0.8863491741566639, 0.11365082584333612;
+
+}
+probability ( X_new_166 | INTUBATION ) {
+    ( 0 ) 0.43740081302394596, 0.5625991869760542;
+    ( 1 ) 0.3965971534658688, 0.6034028465341311;
+    ( 2 ) 0.5325200250286927, 0.4674799749713074;
+
+}
+probability ( X_new_167 | X_new_19, X_new_8, KINKEDTUBE ) {
+    ( 0, 0, 0 ) 0.42652309782676917, 0.5734769021732308;
+    ( 0, 0, 1 ) 0.7148141453024016, 0.28518585469759844;
+    ( 0, 1, 0 ) 0.33932407773578205, 0.6606759222642179;
+    ( 0, 1, 1 ) 0.6364482893765881, 0.36355171062341196;
+    ( 1, 0, 0 ) 0.3855295790624902, 0.6144704209375097;
+    ( 1, 0, 1 ) 0.14461751239839168, 0.8553824876016083;
+    ( 1, 1, 0 ) 0.526815973139146, 0.4731840268608541;
+    ( 1, 1, 1 ) 0.532594595978909, 0.467405404021091;
+
+}
+probability ( X_new_168 | X_new_191 ) {
+    ( 0 ) 0.22441707373000294, 0.775582926269997;
+    ( 1 ) 0.2648214013646764, 0.7351785986353235;
+
+}
+probability ( X_new_169 | X_new_10, X_new_52, X_new_212 ) {
+    ( 0, 0, 0 ) 0.5786462954525166, 0.42135370454748355;
+    ( 0, 0, 1 ) 0.9343291372455932, 0.06567086275440683;
+    ( 0, 1, 0 ) 0.29716911010417657, 0.7028308898958234;
+    ( 0, 1, 1 ) 0.5486055464118417, 0.4513944535881584;
+    ( 1, 0, 0 ) 0.6834766834992494, 0.31652331650075066;
+    ( 1, 0, 1 ) 0.28099580600470325, 0.7190041939952967;
+    ( 1, 1, 0 ) 0.6088337191762844, 0.3911662808237157;
+    ( 1, 1, 1 ) 0.07716897853204302, 0.922831021467957;
+
+}
+probability ( X_new_17 | VENTLUNG, X_new_193, X_new_163, X_new_179 ) {
+    ( 0, 0, 0, 0 ) 0.8856541782407096, 0.11434582175929044;
+    ( 0, 0, 0, 1 ) 0.5913358246614809, 0.408664175338519;
+    ( 0, 0, 1, 0 ) 0.8681556545159708, 0.13184434548402912;
+    ( 0, 0, 1, 1 ) 0.6875615483492133, 0.3124384516507867;
+    ( 0, 1, 0, 0 ) 0.11359950298017187, 0.8864004970198281;
+    ( 0, 1, 0, 1 ) 0.16299406525656113, 0.8370059347434388;
+    ( 0, 1, 1, 0 ) 0.3198887071942051, 0.6801112928057949;
+    ( 0, 1, 1, 1 ) 0.29285309357072503, 0.707146906429275;
+    ( 1, 0, 0, 0 ) 0.5194936273432742, 0.4805063726567258;
+    ( 1, 0, 0, 1 ) 0.19161122995954533, 0.8083887700404547;
+    ( 1, 0, 1, 0 ) 0.23875978311392815, 0.7612402168860719;
+    ( 1, 0, 1, 1 ) 0.8004630001568516, 0.19953699984314846;
+    ( 1, 1, 0, 0 ) 0.46910522450740505, 0.5308947754925949;
+    ( 1, 1, 0, 1 ) 0.04542711677633505, 0.954572883223665;
+    ( 1, 1, 1, 0 ) 0.39766120584155407, 0.6023387941584459;
+    ( 1, 1, 1, 1 ) 0.12368181668917207, 0.876318183310828;
+    ( 2, 0, 0, 0 ) 0.4271104700631794, 0.5728895299368206;
+    ( 2, 0, 0, 1 ) 0.7778511412845078, 0.22214885871549225;
+    ( 2, 0, 1, 0 ) 0.8214188451226464, 0.17858115487735368;
+    ( 2, 0, 1, 1 ) 0.7114519500896832, 0.28854804991031674;
+    ( 2, 1, 0, 0 ) 0.62800406579714, 0.37199593420286;
+    ( 2, 1, 0, 1 ) 0.6521042459464851, 0.3478957540535149;
+    ( 2, 1, 1, 0 ) 0.2713010160965484, 0.7286989839034516;
+    ( 2, 1, 1, 1 ) 0.5747446741103662, 0.4252553258896338;
+    ( 3, 0, 0, 0 ) 0.8995025590664508, 0.10049744093354916;
+    ( 3, 0, 0, 1 ) 0.7027621883137429, 0.29723781168625696;
+    ( 3, 0, 1, 0 ) 0.024725612102469353, 0.9752743878975306;
+    ( 3, 0, 1, 1 ) 0.5236140956332626, 0.4763859043667374;
+    ( 3, 1, 0, 0 ) 0.9286694216439219, 0.07133057835607808;
+    ( 3, 1, 0, 1 ) 0.3936644584494826, 0.6063355415505174;
+    ( 3, 1, 1, 0 ) 0.35174074659368154, 0.6482592534063185;
+    ( 3, 1, 1, 1 ) 0.5339185252399543, 0.4660814747600457;
+
+}
+probability ( X_new_170 | X_new_166, X_new_159 ) {
+    ( 0, 0 ) 0.5258126292447419, 0.4741873707552581;
+    ( 0, 1 ) 0.7363907342263153, 0.26360926577368465;
+    ( 1, 0 ) 0.2228541667150995, 0.7771458332849004;
+    ( 1, 1 ) 0.6005514156913743, 0.3994485843086257;
+
+}
+probability ( X_new_171 ) {
+    table 0.531079085562945, 0.4689209144370549 ;
+}
+probability ( X_new_172 | X_new_33, CATECHOL ) {
+    ( 0, 0 ) 0.4847290343395876, 0.5152709656604124;
+    ( 0, 1 ) 0.7158983833320077, 0.2841016166679922;
+    ( 1, 0 ) 0.1546222836366145, 0.8453777163633855;
+    ( 1, 1 ) 0.5976745370777254, 0.4023254629222746;
+
+}
+probability ( X_new_173 | X_new_212 ) {
+    ( 0 ) 0.5904339844292052, 0.40956601557079464;
+    ( 1 ) 0.4935534286280233, 0.5064465713719767;
+
+}
+probability ( X_new_174 | X_new_73 ) {
+    ( 0 ) 0.34269126767489283, 0.6573087323251072;
+    ( 1 ) 0.7468346751869498, 0.25316532481305026;
+
+}
+probability ( X_new_175 ) {
+    table 0.580401102370623, 0.4195988976293769 ;
+}
+probability ( X_new_176 | X_new_60 ) {
+    ( 0 ) 0.6685523380268972, 0.33144766197310277;
+    ( 1 ) 0.5546482749270405, 0.4453517250729596;
+
+}
+probability ( X_new_177 | X_new_238, X_new_7 ) {
+    ( 0, 0 ) 0.6869087506468028, 0.3130912493531971;
+    ( 0, 1 ) 0.6556337752444408, 0.34436622475555917;
+    ( 1, 0 ) 0.8244745666434915, 0.17552543335650855;
+    ( 1, 1 ) 0.5162366697123519, 0.483763330287648;
+
+}
+probability ( X_new_178 | X_new_227, X_new_172 ) {
+    ( 0, 0 ) 0.2979794495769133, 0.7020205504230868;
+    ( 0, 1 ) 0.49497407723253545, 0.5050259227674646;
+    ( 1, 0 ) 0.4662567511724574, 0.5337432488275426;
+    ( 1, 1 ) 0.5262522355730533, 0.47374776442694666;
+
+}
+probability ( X_new_179 | SAO2 ) {
+    ( 0 ) 0.2908220326918466, 0.7091779673081535;
+    ( 1 ) 0.6654288773287372, 0.3345711226712627;
+    ( 2 ) 0.7336633185482385, 0.2663366814517615;
+
+}
+probability ( X_new_18 ) {
+    table 0.8584441893535677, 0.14155581064643236 ;
+}
+probability ( X_new_180 | X_new_159 ) {
+    ( 0 ) 0.6820502128985781, 0.31794978710142185;
+    ( 1 ) 0.08173410051077472, 0.9182658994892252;
+
+}
+probability ( X_new_181 ) {
+    table 0.9771851104395, 0.022814889560500113 ;
+}
+probability ( X_new_182 | X_new_102 ) {
+    ( 0 ) 0.3039242273873087, 0.6960757726126913;
+    ( 1 ) 0.5569630053238968, 0.4430369946761032;
+
+}
+probability ( X_new_183 ) {
+    table 0.6626222758992352, 0.3373777241007649 ;
+}
+probability ( X_new_184 | X_new_57, X_new_71, X_new_120 ) {
+    ( 0, 0, 0 ) 0.8590994157750297, 0.14090058422497032;
+    ( 0, 0, 1 ) 0.836009561164231, 0.16399043883576905;
+    ( 0, 1, 0 ) 0.45876164418688875, 0.5412383558131112;
+    ( 0, 1, 1 ) 0.6803860700487595, 0.31961392995124044;
+    ( 1, 0, 0 ) 0.5627083942628642, 0.4372916057371359;
+    ( 1, 0, 1 ) 0.2913119615584816, 0.7086880384415184;
+    ( 1, 1, 0 ) 0.5602167961592823, 0.4397832038407176;
+    ( 1, 1, 1 ) 0.44936372242408584, 0.5506362775759142;
+
+}
+probability ( X_new_185 | X_new_272 ) {
+    ( 0 ) 0.5656114026229966, 0.43438859737700336;
+    ( 1 ) 0.9422256881484272, 0.05777431185157284;
+
+}
+probability ( X_new_186 | X_new_204, X_new_258 ) {
+    ( 0, 0 ) 0.8705654206684291, 0.12943457933157082;
+    ( 0, 1 ) 0.5268959999444925, 0.47310400005550757;
+    ( 1, 0 ) 0.6954044187266788, 0.3045955812733212;
+    ( 1, 1 ) 0.711561989164086, 0.288438010835914;
+
+}
+probability ( X_new_187 ) {
+    table 0.48909798801113435, 0.5109020119888656 ;
+}
+probability ( X_new_188 | X_new_95 ) {
+    ( 0 ) 0.4431296202582234, 0.5568703797417766;
+    ( 1 ) 0.3306343860616429, 0.669365613938357;
+
+}
+probability ( X_new_189 | X_new_216, X_new_51 ) {
+    ( 0, 0 ) 0.029056720218523523, 0.9709432797814764;
+    ( 0, 1 ) 0.5141006454246252, 0.48589935457537475;
+    ( 1, 0 ) 0.2633534968606239, 0.7366465031393761;
+    ( 1, 1 ) 0.7536737718107582, 0.24632622818924185;
+
+}
+probability ( X_new_19 | X_new_303 ) {
+    ( 0 ) 0.6354394773446024, 0.36456052265539773;
+    ( 1 ) 0.33047289823641235, 0.6695271017635877;
+
+}
+probability ( X_new_190 ) {
+    table 0.47781978280353005, 0.52218021719647 ;
+}
+probability ( X_new_191 | X_new_330, X_new_16 ) {
+    ( 0, 0 ) 0.4811991153476771, 0.5188008846523229;
+    ( 0, 1 ) 0.5485912458223065, 0.45140875417769344;
+    ( 1, 0 ) 0.3937228842899876, 0.6062771157100125;
+    ( 1, 1 ) 0.1826150251092302, 0.8173849748907699;
+
+}
+probability ( X_new_192 | X_new_286, X_new_130 ) {
+    ( 0, 0 ) 0.7446894385708852, 0.25531056142911485;
+    ( 0, 1 ) 0.8817941280700595, 0.11820587192994039;
+    ( 1, 0 ) 0.15261164998724538, 0.8473883500127547;
+    ( 1, 1 ) 0.8047646658806371, 0.19523533411936295;
+
+}
+probability ( X_new_193 | CVP ) {
+    ( 0 ) 0.48414873983436973, 0.5158512601656302;
+    ( 1 ) 0.7683968120035086, 0.23160318799649138;
+    ( 2 ) 0.1721929700092118, 0.8278070299907883;
+
+}
+probability ( X_new_194 | X_new_195, X_new_327 ) {
+    ( 0, 0 ) 0.9074852916951618, 0.09251470830483813;
+    ( 0, 1 ) 0.1291038743473896, 0.8708961256526103;
+    ( 1, 0 ) 0.9852181481641508, 0.014781851835849293;
+    ( 1, 1 ) 0.62669689221522, 0.37330310778478004;
+
+}
+probability ( X_new_195 | X_new_150, X_new_324, X_new_42 ) {
+    ( 0, 0, 0 ) 0.2503019437092176, 0.7496980562907825;
+    ( 0, 0, 1 ) 0.6603576165521855, 0.33964238344781456;
+    ( 0, 1, 0 ) 0.26722360137590684, 0.7327763986240932;
+    ( 0, 1, 1 ) 0.5370114224124491, 0.4629885775875509;
+    ( 1, 0, 0 ) 0.19751082258364905, 0.802489177416351;
+    ( 1, 0, 1 ) 0.47725747154014303, 0.5227425284598569;
+    ( 1, 1, 0 ) 0.3250317540584596, 0.6749682459415405;
+    ( 1, 1, 1 ) 0.05962738100602086, 0.9403726189939792;
+
+}
+probability ( X_new_196 | X_new_251 ) {
+    ( 0 ) 0.5840165948491026, 0.41598340515089727;
+    ( 1 ) 0.48245781465963977, 0.5175421853403602;
+
+}
+probability ( X_new_197 | X_new_291, VENTMACH, X_new_322 ) {
+    ( 0, 0, 0 ) 0.33010024516641856, 0.6698997548335816;
+    ( 0, 0, 1 ) 0.8729992441987254, 0.12700075580127448;
+    ( 0, 1, 0 ) 0.4068453553933937, 0.5931546446066063;
+    ( 0, 1, 1 ) 0.5147933301670892, 0.48520666983291083;
+    ( 0, 2, 0 ) 0.22360577482845304, 0.7763942251715469;
+    ( 0, 2, 1 ) 0.8722217239114014, 0.1277782760885985;
+    ( 0, 3, 0 ) 0.15847222131721522, 0.8415277786827848;
+    ( 0, 3, 1 ) 0.5611279958430805, 0.4388720041569195;
+    ( 1, 0, 0 ) 0.40781242066052475, 0.5921875793394753;
+    ( 1, 0, 1 ) 0.7795344395516367, 0.22046556044836324;
+    ( 1, 1, 0 ) 0.7583599313867071, 0.24164006861329293;
+    ( 1, 1, 1 ) 0.44132277609205456, 0.5586772239079455;
+    ( 1, 2, 0 ) 0.4717684223686056, 0.5282315776313944;
+    ( 1, 2, 1 ) 0.03398906794650365, 0.9660109320534963;
+    ( 1, 3, 0 ) 0.7075739041427818, 0.2924260958572182;
+    ( 1, 3, 1 ) 0.11229396385819251, 0.8877060361418074;
+
+}
+probability ( X_new_198 | X_new_45 ) {
+    ( 0 ) 0.36484494917405813, 0.6351550508259418;
+    ( 1 ) 0.7091668480883982, 0.29083315191160164;
+
+}
+probability ( X_new_199 | X_new_115 ) {
+    ( 0 ) 0.7759195508410921, 0.22408044915890787;
+    ( 1 ) 0.40584038277154294, 0.594159617228457;
+
+}
+probability ( X_new_2 | KINKEDTUBE ) {
+    ( 0 ) 0.5795632351776644, 0.42043676482233566;
+    ( 1 ) 0.49353485148559906, 0.5064651485144009;
+
+}
+probability ( X_new_20 ) {
+    table 0.8141252664648465, 0.1858747335351535 ;
+}
+probability ( X_new_200 | X_new_190, X_new_212 ) {
+    ( 0, 0 ) 0.7896111030911473, 0.21038889690885268;
+    ( 0, 1 ) 0.4075570139911912, 0.5924429860088087;
+    ( 1, 0 ) 0.08441924304735537, 0.9155807569526446;
+    ( 1, 1 ) 0.4707689223966558, 0.5292310776033443;
+
+}
+probability ( X_new_201 | X_new_167 ) {
+    ( 0 ) 0.3251478119216456, 0.6748521880783543;
+    ( 1 ) 0.4588199299795394, 0.5411800700204605;
+
+}
+probability ( X_new_202 | X_new_304, X_new_268 ) {
+    ( 0, 0 ) 0.5999872475480106, 0.40001275245198936;
+    ( 0, 1 ) 0.5395370985085189, 0.4604629014914811;
+    ( 1, 0 ) 0.5659998202203799, 0.43400017977962013;
+    ( 1, 1 ) 0.4950565330355193, 0.5049434669644808;
+
+}
+probability ( X_new_203 | X_new_188, X_new_254 ) {
+    ( 0, 0 ) 0.7002612632655114, 0.29973873673448864;
+    ( 0, 1 ) 0.4977323251524569, 0.5022676748475431;
+    ( 1, 0 ) 0.6146768281577991, 0.38532317184220083;
+    ( 1, 1 ) 0.41267735584737564, 0.5873226441526243;
+
+}
+probability ( X_new_204 | X_new_2 ) {
+    ( 0 ) 0.24375748701706398, 0.7562425129829361;
+    ( 1 ) 0.47106616404850865, 0.5289338359514913;
+
+}
+probability ( X_new_205 | X_new_156, X_new_143 ) {
+    ( 0, 0 ) 0.4972936695604948, 0.5027063304395052;
+    ( 0, 1 ) 0.3160401435705419, 0.6839598564294582;
+    ( 1, 0 ) 0.6179578646158846, 0.3820421353841154;
+    ( 1, 1 ) 0.5644210237129548, 0.4355789762870453;
+
+}
+probability ( X_new_206 | X_new_204, X_new_108 ) {
+    ( 0, 0 ) 0.3682876553414025, 0.6317123446585974;
+    ( 0, 1 ) 0.5148999062284652, 0.4851000937715349;
+    ( 1, 0 ) 0.4648974683362267, 0.5351025316637733;
+    ( 1, 1 ) 0.7682191772142719, 0.23178082278572812;
+
+}
+probability ( X_new_207 | X_new_135 ) {
+    ( 0 ) 0.3637962709640226, 0.6362037290359773;
+    ( 1 ) 0.4647571823710343, 0.5352428176289656;
+
+}
+probability ( X_new_208 | X_new_296 ) {
+    ( 0 ) 0.26518296556425724, 0.7348170344357428;
+    ( 1 ) 0.1496318645898694, 0.8503681354101306;
+
+}
+probability ( X_new_209 ) {
+    table 0.8908938182340007, 0.10910618176599937 ;
+}
+probability ( X_new_21 | X_new_92 ) {
+    ( 0 ) 0.4451338376473859, 0.5548661623526141;
+    ( 1 ) 0.6606055885388319, 0.3393944114611681;
+
+}
+probability ( X_new_210 | X_new_285 ) {
+    ( 0 ) 0.1901439134027574, 0.8098560865972426;
+    ( 1 ) 0.9483116280757954, 0.05168837192420466;
+
+}
+probability ( X_new_211 | PCWP ) {
+    ( 0 ) 0.47504365861069764, 0.5249563413893024;
+    ( 1 ) 0.14843408492305182, 0.8515659150769482;
+    ( 2 ) 0.4459246502294782, 0.5540753497705219;
+
+}
+probability ( X_new_212 | X_new_219 ) {
+    ( 0 ) 0.436485994638714, 0.5635140053612859;
+    ( 1 ) 0.9175164695288716, 0.08248353047112833;
+
+}
+probability ( X_new_213 | X_new_44, X_new_276 ) {
+    ( 0, 0 ) 0.45037270963968745, 0.5496272903603124;
+    ( 0, 1 ) 0.7017390367812834, 0.29826096321871665;
+    ( 1, 0 ) 0.6491815717505639, 0.35081842824943615;
+    ( 1, 1 ) 0.29436365468098036, 0.7056363453190198;
+
+}
+probability ( X_new_214 | PCWP ) {
+    ( 0 ) 0.13431520039109815, 0.8656847996089019;
+    ( 1 ) 0.3747036562108914, 0.6252963437891087;
+    ( 2 ) 0.6981295417281186, 0.3018704582718814;
+
+}
+probability ( X_new_215 | X_new_217, X_new_118, X_new_296 ) {
+    ( 0, 0, 0 ) 0.5135999678654392, 0.4864000321345609;
+    ( 0, 0, 1 ) 0.49090728387827737, 0.5090927161217227;
+    ( 0, 1, 0 ) 0.5856098124077591, 0.41439018759224083;
+    ( 0, 1, 1 ) 0.1847198167429186, 0.8152801832570814;
+    ( 1, 0, 0 ) 0.5858499433718143, 0.4141500566281857;
+    ( 1, 0, 1 ) 0.4533351802923056, 0.5466648197076943;
+    ( 1, 1, 0 ) 0.4303332706574206, 0.5696667293425793;
+    ( 1, 1, 1 ) 0.521608660708754, 0.478391339291246;
+
+}
+probability ( X_new_216 | X_new_186 ) {
+    ( 0 ) 0.3705933334817741, 0.6294066665182259;
+    ( 1 ) 0.6658049449713664, 0.33419505502863356;
+
+}
+probability ( X_new_217 ) {
+    table 0.2696271719378231, 0.730372828062177 ;
+}
+probability ( X_new_218 | X_new_242 ) {
+    ( 0 ) 0.6031629102325294, 0.39683708976747056;
+    ( 1 ) 0.33102954657581984, 0.66897045342418;
+
+}
+probability ( X_new_219 | X_new_178, X_new_296, X_new_127 ) {
+    ( 0, 0, 0 ) 0.2039548430238471, 0.796045156976153;
+    ( 0, 0, 1 ) 0.47600875968325074, 0.5239912403167493;
+    ( 0, 1, 0 ) 0.2068654958093579, 0.7931345041906421;
+    ( 0, 1, 1 ) 0.4181173334535442, 0.5818826665464558;
+    ( 1, 0, 0 ) 0.06730050753733138, 0.9326994924626687;
+    ( 1, 0, 1 ) 0.6023303016140562, 0.39766969838594385;
+    ( 1, 1, 0 ) 0.033463215643709555, 0.9665367843562905;
+    ( 1, 1, 1 ) 0.46224875902048224, 0.5377512409795178;
+
+}
+probability ( X_new_22 | HYPOVOLEMIA ) {
+    ( 0 ) 0.5699846015429303, 0.4300153984570697;
+    ( 1 ) 0.5663808969933944, 0.4336191030066055;
+
+}
+probability ( X_new_220 | X_new_218, X_new_87 ) {
+    ( 0, 0 ) 0.6037923926184375, 0.3962076073815624;
+    ( 0, 1 ) 0.3333346470348469, 0.6666653529651531;
+    ( 1, 0 ) 0.46420344667166885, 0.5357965533283312;
+    ( 1, 1 ) 0.31020910168927013, 0.6897908983107298;
+
+}
+probability ( X_new_221 | X_new_278 ) {
+    ( 0 ) 0.6047732795946885, 0.3952267204053115;
+    ( 1 ) 0.43800841139599717, 0.5619915886040029;
+
+}
+probability ( X_new_222 | X_new_67, X_new_207 ) {
+    ( 0, 0 ) 0.5006131456521138, 0.49938685434788627;
+    ( 0, 1 ) 0.5673266260007334, 0.43267337399926664;
+    ( 1, 0 ) 0.3894507732878058, 0.6105492267121942;
+    ( 1, 1 ) 0.3177016938336633, 0.6822983061663367;
+
+}
+probability ( X_new_223 | EXPCO2, X_new_288 ) {
+    ( 0, 0 ) 0.8724983316231455, 0.1275016683768545;
+    ( 0, 1 ) 0.552847753234229, 0.447152246765771;
+    ( 1, 0 ) 0.5453101491866735, 0.4546898508133264;
+    ( 1, 1 ) 0.5875802614040703, 0.4124197385959297;
+    ( 2, 0 ) 0.9016111599930173, 0.09838884000698254;
+    ( 2, 1 ) 0.16948200244285186, 0.8305179975571482;
+    ( 3, 0 ) 0.4896366682955528, 0.5103633317044473;
+    ( 3, 1 ) 0.5211090350354078, 0.47889096496459216;
+
+}
+probability ( X_new_224 | X_new_214, X_new_244, X_new_91 ) {
+    ( 0, 0, 0 ) 0.5018456797320638, 0.49815432026793627;
+    ( 0, 0, 1 ) 0.9929148968913765, 0.007085103108623554;
+    ( 0, 1, 0 ) 0.5485737109304547, 0.4514262890695453;
+    ( 0, 1, 1 ) 0.5838173901978057, 0.4161826098021943;
+    ( 1, 0, 0 ) 0.2823338466954757, 0.7176661533045243;
+    ( 1, 0, 1 ) 0.9456407878080015, 0.054359212191998525;
+    ( 1, 1, 0 ) 0.36951607824102595, 0.630483921758974;
+    ( 1, 1, 1 ) 0.7054361347454307, 0.2945638652545693;
+
+}
+probability ( X_new_225 | X_new_269, X_new_113 ) {
+    ( 0, 0 ) 0.48568064619804185, 0.514319353801958;
+    ( 0, 1 ) 0.21461554711145614, 0.7853844528885439;
+    ( 1, 0 ) 0.2877162247446632, 0.7122837752553368;
+    ( 1, 1 ) 0.903794466315005, 0.09620553368499495;
+
+}
+probability ( X_new_226 | VENTTUBE ) {
+    ( 0 ) 0.6704003593810444, 0.32959964061895564;
+    ( 1 ) 0.4410441995205407, 0.5589558004794593;
+    ( 2 ) 0.27300103130658493, 0.7269989686934152;
+    ( 3 ) 0.2514442036388857, 0.7485557963611142;
+
+}
+probability ( X_new_227 | X_new_105 ) {
+    ( 0 ) 0.13262253917849257, 0.8673774608215075;
+    ( 1 ) 0.48619313571133727, 0.5138068642886627;
+
+}
+probability ( X_new_228 | X_new_216 ) {
+    ( 0 ) 0.5400750577474966, 0.45992494225250335;
+    ( 1 ) 0.4196656267942445, 0.5803343732057555;
+
+}
+probability ( X_new_229 | X_new_117, LVEDVOLUME, LVFAILURE ) {
+    ( 0, 0, 0 ) 0.3205676053502818, 0.6794323946497182;
+    ( 0, 0, 1 ) 0.5276494582738601, 0.47235054172613994;
+    ( 0, 1, 0 ) 0.2495955650524, 0.7504044349476;
+    ( 0, 1, 1 ) 0.5960080409490279, 0.40399195905097196;
+    ( 0, 2, 0 ) 0.23613833024907507, 0.7638616697509248;
+    ( 0, 2, 1 ) 0.340662550276111, 0.659337449723889;
+    ( 1, 0, 0 ) 0.5158825315380524, 0.4841174684619476;
+    ( 1, 0, 1 ) 0.6221547816641484, 0.37784521833585155;
+    ( 1, 1, 0 ) 0.38226253216606876, 0.6177374678339311;
+    ( 1, 1, 1 ) 0.5307175952545188, 0.46928240474548116;
+    ( 1, 2, 0 ) 0.27733995683965834, 0.7226600431603416;
+    ( 1, 2, 1 ) 0.7195799814178017, 0.2804200185821984;
+
+}
+probability ( X_new_23 | X_new_156 ) {
+    ( 0 ) 0.43819937444215307, 0.5618006255578469;
+    ( 1 ) 0.007154486749553349, 0.9928455132504467;
+
+}
+probability ( X_new_230 | X_new_196, X_new_28 ) {
+    ( 0, 0 ) 0.5367371997308369, 0.46326280026916306;
+    ( 0, 1 ) 0.5016428836175122, 0.4983571163824878;
+    ( 1, 0 ) 0.6783001029853208, 0.32169989701467916;
+    ( 1, 1 ) 0.6730138256390705, 0.3269861743609295;
+
+}
+probability ( X_new_231 | X_new_164, VENTALV, X_new_134, X_new_78 ) {
+    ( 0, 0, 0, 0 ) 0.733594304545293, 0.266405695454707;
+    ( 0, 0, 0, 1 ) 0.5141732002025104, 0.4858267997974895;
+    ( 0, 0, 1, 0 ) 0.5018637045867409, 0.4981362954132591;
+    ( 0, 0, 1, 1 ) 0.6277977290628246, 0.3722022709371754;
+    ( 0, 1, 0, 0 ) 0.2700532555235917, 0.7299467444764083;
+    ( 0, 1, 0, 1 ) 0.7470871805032661, 0.25291281949673394;
+    ( 0, 1, 1, 0 ) 0.9679689245489252, 0.032031075451074795;
+    ( 0, 1, 1, 1 ) 0.3465863500988629, 0.6534136499011372;
+    ( 0, 2, 0, 0 ) 0.6601570471519184, 0.33984295284808164;
+    ( 0, 2, 0, 1 ) 0.32883583387662835, 0.6711641661233717;
+    ( 0, 2, 1, 0 ) 0.625181349621656, 0.37481865037834405;
+    ( 0, 2, 1, 1 ) 0.20988345378833473, 0.7901165462116652;
+    ( 0, 3, 0, 0 ) 0.3818144194137147, 0.6181855805862854;
+    ( 0, 3, 0, 1 ) 0.5671946956186777, 0.43280530438132214;
+    ( 0, 3, 1, 0 ) 0.5601477956381999, 0.4398522043618;
+    ( 0, 3, 1, 1 ) 0.167145946054797, 0.832854053945203;
+    ( 1, 0, 0, 0 ) 0.9094406599739021, 0.0905593400260978;
+    ( 1, 0, 0, 1 ) 0.6162634150501812, 0.38373658494981877;
+    ( 1, 0, 1, 0 ) 0.36966591812419414, 0.630334081875806;
+    ( 1, 0, 1, 1 ) 0.5580195073494865, 0.44198049265051353;
+    ( 1, 1, 0, 0 ) 0.4016199152453008, 0.5983800847546992;
+    ( 1, 1, 0, 1 ) 0.3668360702714082, 0.6331639297285918;
+    ( 1, 1, 1, 0 ) 0.23756063711664976, 0.7624393628833502;
+    ( 1, 1, 1, 1 ) 0.16381665946610965, 0.8361833405338903;
+    ( 1, 2, 0, 0 ) 0.6288659450064084, 0.3711340549935916;
+    ( 1, 2, 0, 1 ) 0.5091734364279358, 0.49082656357206433;
+    ( 1, 2, 1, 0 ) 0.661785804453273, 0.33821419554672705;
+    ( 1, 2, 1, 1 ) 0.3301800948211663, 0.6698199051788338;
+    ( 1, 3, 0, 0 ) 0.7878608938801243, 0.21213910611987574;
+    ( 1, 3, 0, 1 ) 0.4338677857800029, 0.5661322142199972;
+    ( 1, 3, 1, 0 ) 0.9719959517404194, 0.028004048259580572;
+    ( 1, 3, 1, 1 ) 0.3782783191274794, 0.6217216808725206;
+
+}
+probability ( X_new_232 ) {
+    table 0.3701304791509792, 0.6298695208490208 ;
+}
+probability ( X_new_233 | X_new_18, X_new_106 ) {
+    ( 0, 0 ) 0.3600535314991868, 0.6399464685008132;
+    ( 0, 1 ) 0.5151124727163386, 0.48488752728366136;
+    ( 1, 0 ) 0.8407163030549621, 0.15928369694503777;
+    ( 1, 1 ) 0.638804911813719, 0.3611950881862811;
+
+}
+probability ( X_new_234 ) {
+    table 0.20489507151534542, 0.7951049284846546 ;
+}
+probability ( X_new_235 | X_new_53, X_new_104, X_new_143, LVFAILURE ) {
+    ( 0, 0, 0, 0 ) 0.47504465441383525, 0.5249553455861646;
+    ( 0, 0, 0, 1 ) 0.45633961273484136, 0.5436603872651586;
+    ( 0, 0, 1, 0 ) 0.6142677191848362, 0.3857322808151637;
+    ( 0, 0, 1, 1 ) 0.5321070804263188, 0.4678929195736812;
+    ( 0, 1, 0, 0 ) 0.7542067167538717, 0.24579328324612829;
+    ( 0, 1, 0, 1 ) 0.23822042813182454, 0.7617795718681755;
+    ( 0, 1, 1, 0 ) 0.9119638767254292, 0.08803612327457075;
+    ( 0, 1, 1, 1 ) 0.7937757787455368, 0.20622422125446324;
+    ( 1, 0, 0, 0 ) 0.423622325053964, 0.5763776749460359;
+    ( 1, 0, 0, 1 ) 0.6919650158648155, 0.3080349841351844;
+    ( 1, 0, 1, 0 ) 0.3958507045594216, 0.6041492954405784;
+    ( 1, 0, 1, 1 ) 0.4043404096175082, 0.5956595903824917;
+    ( 1, 1, 0, 0 ) 0.744583235185758, 0.25541676481424214;
+    ( 1, 1, 0, 1 ) 0.07076374225456791, 0.9292362577454321;
+    ( 1, 1, 1, 0 ) 0.7641584920060158, 0.23584150799398412;
+    ( 1, 1, 1, 1 ) 0.6487773642483998, 0.3512226357516002;
+
+}
+probability ( X_new_236 | X_new_269 ) {
+    ( 0 ) 0.41634341774281275, 0.5836565822571873;
+    ( 1 ) 0.11763655973775788, 0.882363440262242;
+
+}
+probability ( X_new_237 | HRBP, X_new_66 ) {
+    ( 0, 0 ) 0.3706518721667744, 0.6293481278332257;
+    ( 0, 1 ) 0.9388368802799008, 0.06116311972009923;
+    ( 1, 0 ) 0.2766142923792237, 0.7233857076207764;
+    ( 1, 1 ) 0.9665449505259287, 0.03345504947407128;
+    ( 2, 0 ) 0.0024444239777029544, 0.997555576022297;
+    ( 2, 1 ) 0.291935857133003, 0.7080641428669969;
+
+}
+probability ( X_new_238 ) {
+    table 0.5170601302695915, 0.48293986973040837 ;
+}
+probability ( X_new_239 | X_new_152 ) {
+    ( 0 ) 0.4558512516666311, 0.5441487483333689;
+    ( 1 ) 0.4523597956781587, 0.5476402043218412;
+
+}
+probability ( X_new_24 | X_new_240 ) {
+    ( 0 ) 0.41357541285093413, 0.5864245871490659;
+    ( 1 ) 0.5695515416755303, 0.4304484583244696;
+
+}
+probability ( X_new_240 | X_new_312, X_new_285 ) {
+    ( 0, 0 ) 0.6429735396378705, 0.3570264603621294;
+    ( 0, 1 ) 0.26267874210229425, 0.7373212578977058;
+    ( 1, 0 ) 0.5664358016113316, 0.4335641983886684;
+    ( 1, 1 ) 0.8045945108979933, 0.19540548910200664;
+
+}
+probability ( X_new_241 | X_new_190 ) {
+    ( 0 ) 0.9849427646653399, 0.015057235334659972;
+    ( 1 ) 0.310271664646638, 0.689728335353362;
+
+}
+probability ( X_new_242 | X_new_174, X_new_169 ) {
+    ( 0, 0 ) 0.4088687961422067, 0.5911312038577933;
+    ( 0, 1 ) 0.5254297800494285, 0.4745702199505714;
+    ( 1, 0 ) 0.4323495079709142, 0.5676504920290858;
+    ( 1, 1 ) 0.52431728573964, 0.47568271426035996;
+
+}
+probability ( X_new_243 | X_new_110, X_new_301 ) {
+    ( 0, 0 ) 0.524706472397122, 0.4752935276028779;
+    ( 0, 1 ) 0.5752242197156009, 0.42477578028439916;
+    ( 1, 0 ) 0.3515853801146223, 0.6484146198853776;
+    ( 1, 1 ) 0.6207909585575158, 0.37920904144248424;
+
+}
+probability ( X_new_244 | X_new_32, X_new_144, MINVOL ) {
+    ( 0, 0, 0 ) 0.6724513665569705, 0.3275486334430295;
+    ( 0, 0, 1 ) 0.023573685801256624, 0.9764263141987434;
+    ( 0, 0, 2 ) 0.8944943493565306, 0.10550565064346948;
+    ( 0, 0, 3 ) 0.21082325811810515, 0.7891767418818949;
+    ( 0, 1, 0 ) 0.8443801908240377, 0.15561980917596227;
+    ( 0, 1, 1 ) 0.11628937082744775, 0.8837106291725522;
+    ( 0, 1, 2 ) 0.5558620930322783, 0.44413790696772176;
+    ( 0, 1, 3 ) 0.636719836028627, 0.3632801639713731;
+    ( 1, 0, 0 ) 0.8350194406115176, 0.16498055938848252;
+    ( 1, 0, 1 ) 0.6405823666278286, 0.3594176333721714;
+    ( 1, 0, 2 ) 0.5301719175201092, 0.46982808247989083;
+    ( 1, 0, 3 ) 0.3654586172954097, 0.6345413827045904;
+    ( 1, 1, 0 ) 0.915026854392864, 0.08497314560713606;
+    ( 1, 1, 1 ) 0.6116402090531584, 0.3883597909468416;
+    ( 1, 1, 2 ) 0.7501633492663206, 0.2498366507336795;
+    ( 1, 1, 3 ) 0.4169661596473916, 0.5830338403526084;
+
+}
+probability ( X_new_245 | X_new_24 ) {
+    ( 0 ) 0.4104447697451136, 0.5895552302548864;
+    ( 1 ) 0.5673306019646381, 0.4326693980353619;
+
+}
+probability ( X_new_246 | X_new_175, PULMEMBOLUS ) {
+    ( 0, 0 ) 0.8111053066734796, 0.18889469332652042;
+    ( 0, 1 ) 0.029237005959543115, 0.970762994040457;
+    ( 1, 0 ) 0.04597248522034696, 0.954027514779653;
+    ( 1, 1 ) 0.4824372954088495, 0.5175627045911505;
+
+}
+probability ( X_new_247 | X_new_329 ) {
+    ( 0 ) 0.5775550931634533, 0.4224449068365467;
+    ( 1 ) 0.582498816218359, 0.41750118378164114;
+
+}
+probability ( X_new_248 | X_new_203 ) {
+    ( 0 ) 0.8459445274432092, 0.1540554725567908;
+    ( 1 ) 0.4369555277080997, 0.5630444722919004;
+
+}
+probability ( X_new_249 | X_new_206, X_new_22 ) {
+    ( 0, 0 ) 0.9895409096141047, 0.010459090385895233;
+    ( 0, 1 ) 0.8487033125068097, 0.15129668749319014;
+    ( 1, 0 ) 0.20536566079735846, 0.7946343392026415;
+    ( 1, 1 ) 0.6113373322806577, 0.3886626677193424;
+
+}
+probability ( X_new_25 | X_new_16, X_new_45 ) {
+    ( 0, 0 ) 0.5871438363470022, 0.4128561636529979;
+    ( 0, 1 ) 0.6398662950908096, 0.3601337049091904;
+    ( 1, 0 ) 0.19698413834177483, 0.8030158616582251;
+    ( 1, 1 ) 0.5479064651227016, 0.45209353487729836;
+
+}
+probability ( X_new_250 | X_new_13, X_new_180, X_new_237, X_new_92 ) {
+    ( 0, 0, 0, 0 ) 0.45825498892241073, 0.5417450110775893;
+    ( 0, 0, 0, 1 ) 0.2937406748565764, 0.7062593251434236;
+    ( 0, 0, 1, 0 ) 0.16789399386797366, 0.8321060061320263;
+    ( 0, 0, 1, 1 ) 0.0859653720933849, 0.914034627906615;
+    ( 0, 1, 0, 0 ) 0.4739134388919406, 0.5260865611080594;
+    ( 0, 1, 0, 1 ) 0.30687421421055977, 0.6931257857894402;
+    ( 0, 1, 1, 0 ) 0.7271467957048399, 0.27285320429516013;
+    ( 0, 1, 1, 1 ) 0.6818374625636753, 0.3181625374363246;
+    ( 1, 0, 0, 0 ) 0.9689509002827343, 0.03104909971726557;
+    ( 1, 0, 0, 1 ) 0.10570037452601153, 0.8942996254739884;
+    ( 1, 0, 1, 0 ) 0.3226780051517999, 0.6773219948482001;
+    ( 1, 0, 1, 1 ) 0.6893928821409082, 0.3106071178590918;
+    ( 1, 1, 0, 0 ) 0.022735275580718754, 0.9772647244192812;
+    ( 1, 1, 0, 1 ) 0.6006362758354455, 0.39936372416455457;
+    ( 1, 1, 1, 0 ) 0.6172670080120778, 0.3827329919879222;
+    ( 1, 1, 1, 1 ) 0.4775088905994479, 0.522491109400552;
+
+}
+probability ( X_new_251 ) {
+    table 0.6009995227215245, 0.39900047727847554 ;
+}
+probability ( X_new_252 | X_new_116, X_new_320, X_new_174 ) {
+    ( 0, 0, 0 ) 0.3818935585494438, 0.6181064414505563;
+    ( 0, 0, 1 ) 0.09190584548111257, 0.9080941545188874;
+    ( 0, 1, 0 ) 0.5304492916823774, 0.4695507083176226;
+    ( 0, 1, 1 ) 0.9500603901931417, 0.04993960980685837;
+    ( 1, 0, 0 ) 0.5985941232176708, 0.40140587678232914;
+    ( 1, 0, 1 ) 0.37436759097822286, 0.6256324090217771;
+    ( 1, 1, 0 ) 0.6731020066860786, 0.3268979933139214;
+    ( 1, 1, 1 ) 0.6039501006625645, 0.3960498993374355;
+
+}
+probability ( X_new_253 | X_new_11, X_new_143, X_new_17, X_new_280 ) {
+    ( 0, 0, 0, 0 ) 0.11504353124466385, 0.8849564687553362;
+    ( 0, 0, 0, 1 ) 0.5796624192954878, 0.4203375807045123;
+    ( 0, 0, 1, 0 ) 0.9744792588505544, 0.02552074114944564;
+    ( 0, 0, 1, 1 ) 0.5031242604645225, 0.4968757395354775;
+    ( 0, 1, 0, 0 ) 0.6256625293656953, 0.37433747063430467;
+    ( 0, 1, 0, 1 ) 0.4706407200016692, 0.5293592799983308;
+    ( 0, 1, 1, 0 ) 0.3123794368974374, 0.6876205631025626;
+    ( 0, 1, 1, 1 ) 0.9849784394830985, 0.015021560516901565;
+    ( 1, 0, 0, 0 ) 0.8407212861195172, 0.1592787138804828;
+    ( 1, 0, 0, 1 ) 0.24038077844190248, 0.7596192215580976;
+    ( 1, 0, 1, 0 ) 0.5433654597472628, 0.45663454025273725;
+    ( 1, 0, 1, 1 ) 0.576409493130512, 0.4235905068694879;
+    ( 1, 1, 0, 0 ) 0.702227889625469, 0.29777211037453105;
+    ( 1, 1, 0, 1 ) 0.18511159697179339, 0.8148884030282066;
+    ( 1, 1, 1, 0 ) 0.3958821048684704, 0.6041178951315296;
+    ( 1, 1, 1, 1 ) 0.4726160022863545, 0.5273839977136455;
+
+}
+probability ( X_new_254 ) {
+    table 0.6383558538382015, 0.3616441461617985 ;
+}
+probability ( X_new_255 | X_new_27 ) {
+    ( 0 ) 0.8936311093453948, 0.1063688906546053;
+    ( 1 ) 0.25566738807726846, 0.7443326119227316;
+
+}
+probability ( X_new_256 | X_new_160, X_new_241 ) {
+    ( 0, 0 ) 0.4209253197624008, 0.5790746802375992;
+    ( 0, 1 ) 0.3707982289851464, 0.6292017710148536;
+    ( 1, 0 ) 0.5135693930250824, 0.48643060697491763;
+    ( 1, 1 ) 0.6317561648852911, 0.36824383511470904;
+
+}
+probability ( X_new_257 | X_new_283, X_new_10 ) {
+    ( 0, 0 ) 0.3275790901350428, 0.6724209098649571;
+    ( 0, 1 ) 0.5564146574713981, 0.44358534252860193;
+    ( 1, 0 ) 0.047641083552803776, 0.9523589164471963;
+    ( 1, 1 ) 0.07072514032550427, 0.9292748596744957;
+
+}
+probability ( X_new_258 ) {
+    table 0.4975609481951591, 0.5024390518048409 ;
+}
+probability ( X_new_259 | X_new_234 ) {
+    ( 0 ) 0.5450787167642733, 0.4549212832357266;
+    ( 1 ) 0.6509166484530856, 0.3490833515469144;
+
+}
+probability ( X_new_26 | X_new_254, X_new_210, X_new_59, X_new_154 ) {
+    ( 0, 0, 0, 0 ) 0.18301181055161653, 0.8169881894483835;
+    ( 0, 0, 0, 1 ) 0.5550588836631575, 0.44494111633684247;
+    ( 0, 0, 1, 0 ) 0.7061972921487464, 0.2938027078512535;
+    ( 0, 0, 1, 1 ) 0.48484500826141036, 0.5151549917385896;
+    ( 0, 1, 0, 0 ) 0.8019617225340371, 0.19803827746596284;
+    ( 0, 1, 0, 1 ) 0.4141880190261574, 0.5858119809738427;
+    ( 0, 1, 1, 0 ) 0.020053815652781453, 0.9799461843472186;
+    ( 0, 1, 1, 1 ) 0.3055477139186347, 0.6944522860813652;
+    ( 1, 0, 0, 0 ) 0.29729739318479215, 0.7027026068152078;
+    ( 1, 0, 0, 1 ) 0.9424561500897549, 0.057543849910245096;
+    ( 1, 0, 1, 0 ) 0.4228763171819243, 0.5771236828180757;
+    ( 1, 0, 1, 1 ) 0.16786310076685776, 0.8321368992331423;
+    ( 1, 1, 0, 0 ) 0.014425753950032646, 0.9855742460499674;
+    ( 1, 1, 0, 1 ) 0.6699172375953932, 0.3300827624046067;
+    ( 1, 1, 1, 0 ) 0.6220550104931347, 0.3779449895068654;
+    ( 1, 1, 1, 1 ) 0.9362017855612166, 0.0637982144387835;
+
+}
+probability ( X_new_260 | X_new_230, X_new_184 ) {
+    ( 0, 0 ) 0.528729741503205, 0.4712702584967951;
+    ( 0, 1 ) 0.8979724239483791, 0.10202757605162087;
+    ( 1, 0 ) 0.6936823728424222, 0.3063176271575778;
+    ( 1, 1 ) 0.18287895004556526, 0.8171210499544348;
+
+}
+probability ( X_new_261 | X_new_80 ) {
+    ( 0 ) 0.3232578074323135, 0.6767421925676864;
+    ( 1 ) 0.4140809619097137, 0.5859190380902862;
+
+}
+probability ( X_new_262 | X_new_281 ) {
+    ( 0 ) 0.7114793141759597, 0.2885206858240404;
+    ( 1 ) 0.14892644407881359, 0.8510735559211865;
+
+}
+probability ( X_new_263 | X_new_202 ) {
+    ( 0 ) 0.6366839186013982, 0.3633160813986018;
+    ( 1 ) 0.6865374374847726, 0.3134625625152274;
+
+}
+probability ( X_new_264 ) {
+    table 0.40258550222867506, 0.5974144977713249 ;
+}
+probability ( X_new_265 | X_new_20, X_new_48, X_new_258, X_new_176 ) {
+    ( 0, 0, 0, 0 ) 0.19991262087576037, 0.8000873791242397;
+    ( 0, 0, 0, 1 ) 0.4538813197945068, 0.5461186802054931;
+    ( 0, 0, 1, 0 ) 0.480362014293386, 0.5196379857066139;
+    ( 0, 0, 1, 1 ) 0.5352568174863377, 0.4647431825136623;
+    ( 0, 1, 0, 0 ) 0.2878926131843429, 0.7121073868156571;
+    ( 0, 1, 0, 1 ) 0.3184601683565451, 0.6815398316434549;
+    ( 0, 1, 1, 0 ) 0.3016519470965947, 0.6983480529034054;
+    ( 0, 1, 1, 1 ) 0.4283827067743986, 0.5716172932256015;
+    ( 1, 0, 0, 0 ) 0.4582200062302558, 0.5417799937697442;
+    ( 1, 0, 0, 1 ) 0.26356454292494264, 0.7364354570750573;
+    ( 1, 0, 1, 0 ) 0.4694658598459789, 0.5305341401540211;
+    ( 1, 0, 1, 1 ) 0.6465739975466466, 0.3534260024533534;
+    ( 1, 1, 0, 0 ) 0.5572966920760075, 0.4427033079239925;
+    ( 1, 1, 0, 1 ) 0.84174380594223, 0.15825619405776994;
+    ( 1, 1, 1, 0 ) 0.6023012469429568, 0.39769875305704305;
+    ( 1, 1, 1, 1 ) 0.9820741486307726, 0.01792585136922746;
+
+}
+probability ( X_new_266 | X_new_177, X_new_221, X_new_312, X_new_54 ) {
+    ( 0, 0, 0, 0 ) 0.6784811850843626, 0.32151881491563744;
+    ( 0, 0, 0, 1 ) 0.7811248711039689, 0.21887512889603103;
+    ( 0, 0, 1, 0 ) 0.2516420563069698, 0.7483579436930302;
+    ( 0, 0, 1, 1 ) 0.32159130359480315, 0.6784086964051969;
+    ( 0, 1, 0, 0 ) 0.5453806206557797, 0.4546193793442203;
+    ( 0, 1, 0, 1 ) 0.4191335763784275, 0.5808664236215725;
+    ( 0, 1, 1, 0 ) 0.4092979337426328, 0.5907020662573671;
+    ( 0, 1, 1, 1 ) 0.3642418154711066, 0.6357581845288933;
+    ( 1, 0, 0, 0 ) 0.8782212580200026, 0.12177874197999747;
+    ( 1, 0, 0, 1 ) 0.06021676151827947, 0.9397832384817205;
+    ( 1, 0, 1, 0 ) 0.6674447268441996, 0.3325552731558003;
+    ( 1, 0, 1, 1 ) 0.5363822487848856, 0.46361775121511445;
+    ( 1, 1, 0, 0 ) 0.6555175622821648, 0.34448243771783515;
+    ( 1, 1, 0, 1 ) 0.5564117002480262, 0.44358829975197367;
+    ( 1, 1, 1, 0 ) 0.5864757540466082, 0.41352424595339177;
+    ( 1, 1, 1, 1 ) 0.7007600407720082, 0.29923995922799185;
+
+}
+probability ( X_new_267 | X_new_212 ) {
+    ( 0 ) 0.4626903168521769, 0.5373096831478231;
+    ( 1 ) 0.34871741115297894, 0.6512825888470211;
+
+}
+probability ( X_new_268 ) {
+    table 0.22972120576768268, 0.7702787942323173 ;
+}
+probability ( X_new_269 | FIO2, X_new_196 ) {
+    ( 0, 0 ) 0.7430124397051991, 0.2569875602948009;
+    ( 0, 1 ) 0.8666133209763018, 0.1333866790236982;
+    ( 1, 0 ) 0.6328447859742656, 0.36715521402573437;
+    ( 1, 1 ) 0.17839136597865718, 0.8216086340213428;
+
+}
+probability ( X_new_27 ) {
+    table 0.8676988810957394, 0.1323011189042605 ;
+}
+probability ( X_new_270 ) {
+    table 0.4077549535291473, 0.5922450464708526 ;
+}
+probability ( X_new_271 | X_new_306, X_new_78, X_new_139 ) {
+    ( 0, 0, 0 ) 0.8541722564738891, 0.14582774352611103;
+    ( 0, 0, 1 ) 0.5368466448138772, 0.4631533551861228;
+    ( 0, 1, 0 ) 0.4871390423697945, 0.5128609576302057;
+    ( 0, 1, 1 ) 0.6074616688421814, 0.39253833115781844;
+    ( 1, 0, 0 ) 0.4535729983854188, 0.5464270016145811;
+    ( 1, 0, 1 ) 0.6628418173347188, 0.33715818266528125;
+    ( 1, 1, 0 ) 0.6940035888800269, 0.30599641111997306;
+    ( 1, 1, 1 ) 0.6760212798545594, 0.32397872014544066;
+
+}
+probability ( X_new_272 | X_new_83, HR ) {
+    ( 0, 0 ) 0.3509347147764881, 0.649065285223512;
+    ( 0, 1 ) 0.2395806657779341, 0.7604193342220659;
+    ( 0, 2 ) 0.5645204283053084, 0.4354795716946917;
+    ( 1, 0 ) 0.03221650385626684, 0.9677834961437332;
+    ( 1, 1 ) 0.5082253318921642, 0.4917746681078357;
+    ( 1, 2 ) 0.5270342422385349, 0.47296575776146516;
+
+}
+probability ( X_new_273 | X_new_74, X_new_40 ) {
+    ( 0, 0 ) 0.3387122024673857, 0.6612877975326144;
+    ( 0, 1 ) 0.8850192733607872, 0.11498072663921283;
+    ( 1, 0 ) 0.5932985552675312, 0.4067014447324689;
+    ( 1, 1 ) 0.41340243063651627, 0.5865975693634836;
+
+}
+probability ( X_new_274 | X_new_179, X_new_188, X_new_114, X_new_323 ) {
+    ( 0, 0, 0, 0 ) 0.1887552505457178, 0.8112447494542823;
+    ( 0, 0, 0, 1 ) 0.13948554440571756, 0.8605144555942824;
+    ( 0, 0, 1, 0 ) 0.6808409221893787, 0.3191590778106212;
+    ( 0, 0, 1, 1 ) 0.13780438752091387, 0.862195612479086;
+    ( 0, 1, 0, 0 ) 0.06915994162690417, 0.9308400583730958;
+    ( 0, 1, 0, 1 ) 0.9906893342482735, 0.009310665751726448;
+    ( 0, 1, 1, 0 ) 0.45906137139792086, 0.5409386286020792;
+    ( 0, 1, 1, 1 ) 0.8001797981319431, 0.1998202018680569;
+    ( 1, 0, 0, 0 ) 0.1443857250076996, 0.8556142749923004;
+    ( 1, 0, 0, 1 ) 0.3500823303683318, 0.6499176696316682;
+    ( 1, 0, 1, 0 ) 0.43119174919166625, 0.5688082508083337;
+    ( 1, 0, 1, 1 ) 0.30332628558254465, 0.6966737144174553;
+    ( 1, 1, 0, 0 ) 0.5081873662092607, 0.4918126337907393;
+    ( 1, 1, 0, 1 ) 0.541193899381866, 0.4588061006181341;
+    ( 1, 1, 1, 0 ) 0.43883074295699626, 0.5611692570430038;
+    ( 1, 1, 1, 1 ) 0.8002825149841017, 0.1997174850158983;
+
+}
+probability ( X_new_275 | X_new_110 ) {
+    ( 0 ) 0.4536689133005486, 0.5463310866994514;
+    ( 1 ) 0.9509231722014017, 0.049076827798598364;
+
+}
+probability ( X_new_276 | X_new_116 ) {
+    ( 0 ) 0.7017035560840129, 0.29829644391598703;
+    ( 1 ) 0.9238718282306628, 0.07612817176933724;
+
+}
+probability ( X_new_277 | X_new_187, X_new_165 ) {
+    ( 0, 0 ) 0.7194047415114857, 0.28059525848851424;
+    ( 0, 1 ) 0.9915892326775528, 0.008410767322447228;
+    ( 1, 0 ) 0.22091693013327754, 0.7790830698667225;
+    ( 1, 1 ) 0.3535369854984092, 0.6464630145015907;
+
+}
+probability ( X_new_278 | X_new_171, X_new_21, X_new_51 ) {
+    ( 0, 0, 0 ) 0.8386237884078716, 0.16137621159212842;
+    ( 0, 0, 1 ) 0.02726987047913097, 0.9727301295208689;
+    ( 0, 1, 0 ) 0.5973803457486441, 0.4026196542513558;
+    ( 0, 1, 1 ) 0.518472845579313, 0.481527154420687;
+    ( 1, 0, 0 ) 0.5483347490440769, 0.451665250955923;
+    ( 1, 0, 1 ) 0.5730415649536731, 0.4269584350463269;
+    ( 1, 1, 0 ) 0.7408134944338569, 0.25918650556614303;
+    ( 1, 1, 1 ) 0.15887413656305277, 0.8411258634369473;
+
+}
+probability ( X_new_279 | X_new_129, X_new_333, VENTMACH ) {
+    ( 0, 0, 0 ) 0.4042375448782879, 0.595762455121712;
+    ( 0, 0, 1 ) 0.5196855982933909, 0.4803144017066091;
+    ( 0, 0, 2 ) 0.14760025402043178, 0.8523997459795682;
+    ( 0, 0, 3 ) 0.4752391565430919, 0.5247608434569081;
+    ( 0, 1, 0 ) 0.1030116883676426, 0.8969883116323575;
+    ( 0, 1, 1 ) 0.11974061831838322, 0.8802593816816169;
+    ( 0, 1, 2 ) 0.07659186577213856, 0.9234081342278615;
+    ( 0, 1, 3 ) 0.5592525486013996, 0.4407474513986003;
+    ( 1, 0, 0 ) 0.6750440712163995, 0.3249559287836004;
+    ( 1, 0, 1 ) 0.8217007801072145, 0.1782992198927856;
+    ( 1, 0, 2 ) 0.17406027004703364, 0.8259397299529664;
+    ( 1, 0, 3 ) 0.33769596787194756, 0.6623040321280523;
+    ( 1, 1, 0 ) 0.7800967179456875, 0.21990328205431256;
+    ( 1, 1, 1 ) 0.6413865724686676, 0.3586134275313324;
+    ( 1, 1, 2 ) 0.6266084796676427, 0.3733915203323574;
+    ( 1, 1, 3 ) 0.526236909977097, 0.4737630900229029;
+
+}
+probability ( X_new_28 | X_new_213, X_new_9 ) {
+    ( 0, 0 ) 0.8305913685586465, 0.1694086314413535;
+    ( 0, 1 ) 0.7256856001945027, 0.27431439980549727;
+    ( 1, 0 ) 0.003014416501807166, 0.9969855834981929;
+    ( 1, 1 ) 0.3345723825153269, 0.6654276174846732;
+
+}
+probability ( X_new_280 | X_new_161, X_new_325, HISTORY ) {
+    ( 0, 0, 0 ) 0.6409522115628035, 0.3590477884371965;
+    ( 0, 0, 1 ) 0.5191063302929768, 0.48089366970702324;
+    ( 0, 1, 0 ) 0.8047027211792351, 0.19529727882076478;
+    ( 0, 1, 1 ) 0.6464902807708215, 0.3535097192291785;
+    ( 1, 0, 0 ) 0.248130236253385, 0.751869763746615;
+    ( 1, 0, 1 ) 0.018839958206011777, 0.9811600417939883;
+    ( 1, 1, 0 ) 0.2600488519308633, 0.7399511480691368;
+    ( 1, 1, 1 ) 0.7160073314203146, 0.2839926685796854;
+
+}
+probability ( X_new_281 | X_new_246, X_new_111 ) {
+    ( 0, 0 ) 0.9112400266237404, 0.08875997337625967;
+    ( 0, 1 ) 0.5379927387849526, 0.4620072612150474;
+    ( 1, 0 ) 0.5397263892926599, 0.4602736107073401;
+    ( 1, 1 ) 0.5089573263850145, 0.49104267361498544;
+
+}
+probability ( X_new_282 | X_new_149, X_new_86, X_new_81, X_new_198 ) {
+    ( 0, 0, 0, 0 ) 0.5791615769269249, 0.42083842307307495;
+    ( 0, 0, 0, 1 ) 0.6761809986622365, 0.32381900133776353;
+    ( 0, 0, 1, 0 ) 0.11350179228728978, 0.8864982077127103;
+    ( 0, 0, 1, 1 ) 0.5156833994840353, 0.4843166005159647;
+    ( 0, 1, 0, 0 ) 0.5123224703487914, 0.4876775296512086;
+    ( 0, 1, 0, 1 ) 0.6070760661838628, 0.39292393381613716;
+    ( 0, 1, 1, 0 ) 0.3959640366550706, 0.6040359633449294;
+    ( 0, 1, 1, 1 ) 0.658225620157245, 0.34177437984275505;
+    ( 1, 0, 0, 0 ) 0.27396786929008127, 0.7260321307099187;
+    ( 1, 0, 0, 1 ) 0.6377603772600439, 0.36223962273995614;
+    ( 1, 0, 1, 0 ) 0.8537062465726185, 0.14629375342738138;
+    ( 1, 0, 1, 1 ) 0.2607791805385567, 0.7392208194614432;
+    ( 1, 1, 0, 0 ) 0.6408013917861607, 0.35919860821383925;
+    ( 1, 1, 0, 1 ) 0.6107175643715, 0.3892824356284999;
+    ( 1, 1, 1, 0 ) 0.12830420036918064, 0.8716957996308193;
+    ( 1, 1, 1, 1 ) 0.9770526833630151, 0.022947316636984988;
+
+}
+probability ( X_new_283 ) {
+    table 0.9528031864950026, 0.04719681350499736 ;
+}
+probability ( X_new_284 | X_new_201, X_new_229 ) {
+    ( 0, 0 ) 0.5128647705759444, 0.4871352294240557;
+    ( 0, 1 ) 0.44591319884740105, 0.5540868011525989;
+    ( 1, 0 ) 0.44842460852847943, 0.5515753914715206;
+    ( 1, 1 ) 0.16233126509843915, 0.8376687349015609;
+
+}
+probability ( X_new_285 | X_new_207, X_new_241, X_new_112, ANAPHYLAXIS ) {
+    ( 0, 0, 0, 0 ) 0.16442303012814147, 0.8355769698718585;
+    ( 0, 0, 0, 1 ) 0.7919365545441199, 0.20806344545588007;
+    ( 0, 0, 1, 0 ) 0.3701595955707512, 0.6298404044292487;
+    ( 0, 0, 1, 1 ) 0.18644700937850434, 0.8135529906214956;
+    ( 0, 1, 0, 0 ) 0.14835918465971135, 0.8516408153402887;
+    ( 0, 1, 0, 1 ) 0.46719923425809634, 0.5328007657419036;
+    ( 0, 1, 1, 0 ) 0.7771089221189359, 0.2228910778810641;
+    ( 0, 1, 1, 1 ) 0.8334785415791175, 0.16652145842088253;
+    ( 1, 0, 0, 0 ) 0.2964975068348618, 0.7035024931651382;
+    ( 1, 0, 0, 1 ) 0.6378494663326757, 0.3621505336673243;
+    ( 1, 0, 1, 0 ) 0.5913955399381252, 0.4086044600618747;
+    ( 1, 0, 1, 1 ) 0.6495831193107955, 0.3504168806892045;
+    ( 1, 1, 0, 0 ) 0.399013086241541, 0.6009869137584589;
+    ( 1, 1, 0, 1 ) 0.9944397869556855, 0.005560213044314557;
+    ( 1, 1, 1, 0 ) 0.5172424280512311, 0.4827575719487688;
+    ( 1, 1, 1, 1 ) 0.6461856286290126, 0.35381437137098737;
+
+}
+probability ( X_new_286 | X_new_234, X_new_10, X_new_259, X_new_38 ) {
+    ( 0, 0, 0, 0 ) 0.5287659655549554, 0.47123403444504464;
+    ( 0, 0, 0, 1 ) 0.2625184581609999, 0.737481541839;
+    ( 0, 0, 1, 0 ) 0.3635119362378231, 0.6364880637621769;
+    ( 0, 0, 1, 1 ) 0.5294154069298249, 0.47058459307017503;
+    ( 0, 1, 0, 0 ) 0.03124261195492017, 0.9687573880450798;
+    ( 0, 1, 0, 1 ) 0.5560667614562189, 0.4439332385437811;
+    ( 0, 1, 1, 0 ) 0.9710507801040796, 0.028949219895920374;
+    ( 0, 1, 1, 1 ) 0.7724365804590543, 0.22756341954094567;
+    ( 1, 0, 0, 0 ) 0.8889333208752687, 0.11106667912473127;
+    ( 1, 0, 0, 1 ) 0.4884524718623094, 0.5115475281376906;
+    ( 1, 0, 1, 0 ) 0.9426818290301617, 0.057318170969838364;
+    ( 1, 0, 1, 1 ) 0.6562724133171366, 0.34372758668286346;
+    ( 1, 1, 0, 0 ) 0.5104924170276194, 0.48950758297238056;
+    ( 1, 1, 0, 1 ) 0.44720236783654504, 0.5527976321634549;
+    ( 1, 1, 1, 0 ) 0.44490006493528284, 0.5550999350647171;
+    ( 1, 1, 1, 1 ) 0.45227340713877834, 0.5477265928612217;
+
+}
+probability ( X_new_287 | PVSAT ) {
+    ( 0 ) 0.7867074375723728, 0.21329256242762717;
+    ( 1 ) 0.1715160760626916, 0.8284839239373083;
+    ( 2 ) 0.8635232857431901, 0.1364767142568098;
+
+}
+probability ( X_new_288 | X_new_328, X_new_233, X_new_120 ) {
+    ( 0, 0, 0 ) 0.4261542129377741, 0.573845787062226;
+    ( 0, 0, 1 ) 0.4049319153200306, 0.5950680846799694;
+    ( 0, 1, 0 ) 0.7876750034239217, 0.21232499657607834;
+    ( 0, 1, 1 ) 0.3690777623449281, 0.6309222376550719;
+    ( 1, 0, 0 ) 0.6574376043883583, 0.3425623956116417;
+    ( 1, 0, 1 ) 0.8008651708670386, 0.19913482913296146;
+    ( 1, 1, 0 ) 0.3087794129860993, 0.6912205870139007;
+    ( 1, 1, 1 ) 0.6124045880335387, 0.3875954119664613;
+
+}
+probability ( X_new_289 ) {
+    table 0.46507203532308516, 0.534927964676915 ;
+}
+probability ( X_new_29 | BP ) {
+    ( 0 ) 0.9288020249366882, 0.07119797506331188;
+    ( 1 ) 0.6067505599873609, 0.39324944001263895;
+    ( 2 ) 0.5730545625940355, 0.42694543740596447;
+
+}
+probability ( X_new_290 | X_new_323, X_new_5 ) {
+    ( 0, 0 ) 0.4604672959610248, 0.5395327040389751;
+    ( 0, 1 ) 0.651527463100791, 0.34847253689920893;
+    ( 1, 0 ) 0.20296968064808463, 0.7970303193519154;
+    ( 1, 1 ) 0.48620391110624955, 0.5137960888937505;
+
+}
+probability ( X_new_291 | X_new_211 ) {
+    ( 0 ) 0.5120416470928585, 0.48795835290714146;
+    ( 1 ) 0.7405716132098562, 0.25942838679014374;
+
+}
+probability ( X_new_292 | X_new_96, X_new_54, X_new_276 ) {
+    ( 0, 0, 0 ) 0.7898542933241562, 0.21014570667584384;
+    ( 0, 0, 1 ) 0.8230449458644025, 0.17695505413559756;
+    ( 0, 1, 0 ) 0.05653801059606427, 0.9434619894039358;
+    ( 0, 1, 1 ) 0.32768496921440626, 0.6723150307855936;
+    ( 1, 0, 0 ) 0.46219903579886407, 0.537800964201136;
+    ( 1, 0, 1 ) 0.6065088746346196, 0.39349112536538045;
+    ( 1, 1, 0 ) 0.16831528235158605, 0.8316847176484139;
+    ( 1, 1, 1 ) 0.5134679352905224, 0.4865320647094775;
+
+}
+probability ( X_new_293 | X_new_123 ) {
+    ( 0 ) 0.05079342380550033, 0.9492065761944996;
+    ( 1 ) 0.15497960756967266, 0.8450203924303273;
+
+}
+probability ( X_new_294 | PVSAT, X_new_295 ) {
+    ( 0, 0 ) 0.6881884847761421, 0.3118115152238579;
+    ( 0, 1 ) 0.25529234855078886, 0.7447076514492111;
+    ( 1, 0 ) 0.08857867141492046, 0.9114213285850795;
+    ( 1, 1 ) 0.780555268131218, 0.219444731868782;
+    ( 2, 0 ) 0.4285026676838622, 0.5714973323161379;
+    ( 2, 1 ) 0.7276568506120908, 0.2723431493879092;
+
+}
+probability ( X_new_295 | X_new_91 ) {
+    ( 0 ) 0.4248191393570047, 0.5751808606429953;
+    ( 1 ) 0.38120300765522935, 0.6187969923447707;
+
+}
+probability ( X_new_296 | X_new_92, X_new_177 ) {
+    ( 0, 0 ) 0.579060390715638, 0.420939609284362;
+    ( 0, 1 ) 0.1972712933940648, 0.8027287066059351;
+    ( 1, 0 ) 0.5022453857031145, 0.49775461429688544;
+    ( 1, 1 ) 0.2968518407185261, 0.7031481592814739;
+
+}
+probability ( X_new_297 | SAO2, X_new_165 ) {
+    ( 0, 0 ) 0.539570020870358, 0.460429979129642;
+    ( 0, 1 ) 0.5511737777202967, 0.4488262222797033;
+    ( 1, 0 ) 0.9828142012192436, 0.01718579878075644;
+    ( 1, 1 ) 0.5485414655032799, 0.45145853449672013;
+    ( 2, 0 ) 0.6541404507915154, 0.34585954920848466;
+    ( 2, 1 ) 0.7764454757442074, 0.22355452425579264;
+
+}
+probability ( X_new_298 | X_new_198, X_new_200 ) {
+    ( 0, 0 ) 0.6355186776722692, 0.3644813223277307;
+    ( 0, 1 ) 0.5478447928908257, 0.4521552071091744;
+    ( 1, 0 ) 0.20041713329016417, 0.7995828667098359;
+    ( 1, 1 ) 0.8703687967606235, 0.1296312032393765;
+
+}
+probability ( X_new_299 | PAP ) {
+    ( 0 ) 0.45844819088726757, 0.5415518091127325;
+    ( 1 ) 0.35161759562370254, 0.6483824043762975;
+    ( 2 ) 0.5262112745613703, 0.4737887254386297;
+
+}
+probability ( X_new_3 | X_new_300, X_new_120, X_new_2 ) {
+    ( 0, 0, 0 ) 0.25547894405525584, 0.7445210559447442;
+    ( 0, 0, 1 ) 0.28419959309620985, 0.7158004069037901;
+    ( 0, 1, 0 ) 0.7303309657579395, 0.2696690342420604;
+    ( 0, 1, 1 ) 0.6602040520335545, 0.33979594796644547;
+    ( 1, 0, 0 ) 0.6771363615716008, 0.3228636384283991;
+    ( 1, 0, 1 ) 0.6061358117555931, 0.3938641882444069;
+    ( 1, 1, 0 ) 0.09656945522134815, 0.9034305447786519;
+    ( 1, 1, 1 ) 0.26564524755432434, 0.7343547524456756;
+
+}
+probability ( X_new_30 ) {
+    table 0.1429123879446702, 0.8570876120553298 ;
+}
+probability ( X_new_300 | X_new_232, X_new_199, X_new_255 ) {
+    ( 0, 0, 0 ) 0.9216920104690212, 0.07830798953097887;
+    ( 0, 0, 1 ) 0.3889540440675107, 0.6110459559324892;
+    ( 0, 1, 0 ) 0.4633755432322142, 0.5366244567677858;
+    ( 0, 1, 1 ) 0.17291615775757171, 0.8270838422424283;
+    ( 1, 0, 0 ) 0.35907175350836235, 0.6409282464916377;
+    ( 1, 0, 1 ) 0.8423498207525112, 0.15765017924748884;
+    ( 1, 1, 0 ) 0.7421030142693705, 0.25789698573062947;
+    ( 1, 1, 1 ) 0.6854587075145963, 0.31454129248540375;
+
+}
+probability ( X_new_301 | X_new_167 ) {
+    ( 0 ) 0.4955661654402336, 0.5044338345597664;
+    ( 1 ) 0.6719432130386616, 0.3280567869613384;
+
+}
+probability ( X_new_302 | X_new_15, X_new_178 ) {
+    ( 0, 0 ) 0.24667676467889832, 0.7533232353211017;
+    ( 0, 1 ) 0.39750764787173776, 0.6024923521282622;
+    ( 1, 0 ) 0.5148252806921803, 0.48517471930781975;
+    ( 1, 1 ) 0.7588620721242373, 0.24113792787576271;
+
+}
+probability ( X_new_303 ) {
+    table 0.4102593899761458, 0.5897406100238541 ;
+}
+probability ( X_new_304 | X_new_236, X_new_114 ) {
+    ( 0, 0 ) 0.2888209468140755, 0.7111790531859244;
+    ( 0, 1 ) 0.2212396400230451, 0.7787603599769549;
+    ( 1, 0 ) 0.32689353570132523, 0.6731064642986747;
+    ( 1, 1 ) 0.040657449367683285, 0.9593425506323167;
+
+}
+probability ( X_new_305 ) {
+    table 0.8089230462544398, 0.19107695374556014 ;
+}
+probability ( X_new_306 | X_new_61, X_new_109 ) {
+    ( 0, 0 ) 0.59891174646902, 0.40108825353097993;
+    ( 0, 1 ) 0.6158418404708461, 0.3841581595291539;
+    ( 1, 0 ) 0.9996375882846551, 0.00036241171534492754;
+    ( 1, 1 ) 0.9655363457262381, 0.03446365427376186;
+
+}
+probability ( X_new_307 | LVEDVOLUME ) {
+    ( 0 ) 0.41076280898144774, 0.5892371910185523;
+    ( 1 ) 0.1951083381436754, 0.8048916618563245;
+    ( 2 ) 0.7178819670299792, 0.2821180329700208;
+
+}
+probability ( X_new_308 ) {
+    table 0.5954058459805738, 0.4045941540194262 ;
+}
+probability ( X_new_309 ) {
+    table 0.5868351171779342, 0.41316488282206565 ;
+}
+probability ( X_new_31 | HRSAT ) {
+    ( 0 ) 0.5658107616825078, 0.43418923831749223;
+    ( 1 ) 0.1258640238477057, 0.8741359761522943;
+    ( 2 ) 0.746855371175644, 0.2531446288243559;
+
+}
+probability ( X_new_310 | X_new_294, X_new_41, X_new_90, X_new_49 ) {
+    ( 0, 0, 0, 0 ) 0.5392617502070158, 0.4607382497929841;
+    ( 0, 0, 0, 1 ) 0.5669274400381674, 0.4330725599618326;
+    ( 0, 0, 1, 0 ) 0.4584600542784534, 0.5415399457215466;
+    ( 0, 0, 1, 1 ) 0.2651276357958685, 0.7348723642041315;
+    ( 0, 1, 0, 0 ) 0.9858638949330697, 0.014136105066930246;
+    ( 0, 1, 0, 1 ) 0.5438835426361849, 0.45611645736381523;
+    ( 0, 1, 1, 0 ) 0.5353195625885394, 0.4646804374114606;
+    ( 0, 1, 1, 1 ) 0.9086265187212368, 0.09137348127876313;
+    ( 1, 0, 0, 0 ) 0.6094032510077152, 0.3905967489922847;
+    ( 1, 0, 0, 1 ) 0.4797002832966702, 0.5202997167033298;
+    ( 1, 0, 1, 0 ) 0.8800699102038585, 0.1199300897961414;
+    ( 1, 0, 1, 1 ) 0.7973952083030326, 0.20260479169696732;
+    ( 1, 1, 0, 0 ) 0.6870671051098687, 0.31293289489013143;
+    ( 1, 1, 0, 1 ) 0.7078171066493191, 0.2921828933506808;
+    ( 1, 1, 1, 0 ) 0.7337272281086442, 0.26627277189135573;
+    ( 1, 1, 1, 1 ) 0.3967522837371653, 0.6032477162628347;
+
+}
+probability ( X_new_311 ) {
+    table 0.9130059833954439, 0.08699401660455604 ;
+}
+probability ( X_new_312 | X_new_22 ) {
+    ( 0 ) 0.8753492157697756, 0.12465078423022445;
+    ( 1 ) 0.7007383206155432, 0.29926167938445686;
+
+}
+probability ( X_new_313 | X_new_281, X_new_125 ) {
+    ( 0, 0 ) 0.800494298046793, 0.19950570195320713;
+    ( 0, 1 ) 0.5877476934925409, 0.41225230650745914;
+    ( 1, 0 ) 0.052105074560491675, 0.9478949254395084;
+    ( 1, 1 ) 0.9808911610752697, 0.019108838924730264;
+
+}
+probability ( X_new_314 | X_new_57, X_new_274 ) {
+    ( 0, 0 ) 0.4423032990721005, 0.5576967009278996;
+    ( 0, 1 ) 0.10723725845263683, 0.8927627415473632;
+    ( 1, 0 ) 0.5069697679444518, 0.4930302320555481;
+    ( 1, 1 ) 0.18134616970746523, 0.8186538302925348;
+
+}
+probability ( X_new_315 | X_new_303, X_new_20 ) {
+    ( 0, 0 ) 0.7857217823859315, 0.21427821761406848;
+    ( 0, 1 ) 0.427544676415716, 0.5724553235842841;
+    ( 1, 0 ) 0.17530049200304254, 0.8246995079969575;
+    ( 1, 1 ) 0.15916628751974332, 0.8408337124802566;
+
+}
+probability ( X_new_316 | X_new_251, X_new_166 ) {
+    ( 0, 0 ) 0.019270004960336526, 0.9807299950396635;
+    ( 0, 1 ) 0.6698708720408166, 0.3301291279591835;
+    ( 1, 0 ) 0.8626967438077995, 0.1373032561922005;
+    ( 1, 1 ) 0.575823623235104, 0.42417637676489595;
+
+}
+probability ( X_new_317 | X_new_241 ) {
+    ( 0 ) 0.4460514992307753, 0.5539485007692247;
+    ( 1 ) 0.4806079671415259, 0.519392032858474;
+
+}
+probability ( X_new_318 | X_new_211, X_new_43, X_new_320 ) {
+    ( 0, 0, 0 ) 0.7351940430300049, 0.2648059569699951;
+    ( 0, 0, 1 ) 0.46355877896927455, 0.5364412210307253;
+    ( 0, 1, 0 ) 0.8456094699421214, 0.15439053005787864;
+    ( 0, 1, 1 ) 0.2310418010541102, 0.7689581989458898;
+    ( 1, 0, 0 ) 0.49821628628571624, 0.5017837137142838;
+    ( 1, 0, 1 ) 0.13948394845578097, 0.8605160515442191;
+    ( 1, 1, 0 ) 0.056336338742303683, 0.9436636612576963;
+    ( 1, 1, 1 ) 0.6827864668437247, 0.3172135331562753;
+
+}
+probability ( X_new_319 | X_new_170 ) {
+    ( 0 ) 0.3725662153722379, 0.627433784627762;
+    ( 1 ) 0.6525496583374795, 0.3474503416625205;
+
+}
+probability ( X_new_32 | X_new_264 ) {
+    ( 0 ) 0.1485902029606805, 0.8514097970393195;
+    ( 1 ) 0.49977668250989304, 0.500223317490107;
+
+}
+probability ( X_new_320 | X_new_219 ) {
+    ( 0 ) 0.3234548127725833, 0.6765451872274166;
+    ( 1 ) 0.3682237873660677, 0.6317762126339324;
+
+}
+probability ( X_new_321 | X_new_333, X_new_25, X_new_245 ) {
+    ( 0, 0, 0 ) 0.4248872654696819, 0.575112734530318;
+    ( 0, 0, 1 ) 0.6261803768923944, 0.37381962310760575;
+    ( 0, 1, 0 ) 0.14209303098295664, 0.8579069690170432;
+    ( 0, 1, 1 ) 0.5955280499555201, 0.40447195004447983;
+    ( 1, 0, 0 ) 0.7597988043562944, 0.24020119564370557;
+    ( 1, 0, 1 ) 0.2358647070494443, 0.7641352929505556;
+    ( 1, 1, 0 ) 0.7049348685733706, 0.2950651314266293;
+    ( 1, 1, 1 ) 0.37391165761776024, 0.6260883423822398;
+
+}
+probability ( X_new_322 | X_new_42, X_new_308, HYPOVOLEMIA ) {
+    ( 0, 0, 0 ) 0.594429094891755, 0.40557090510824506;
+    ( 0, 0, 1 ) 0.653581097441125, 0.34641890255887503;
+    ( 0, 1, 0 ) 0.46284932171546833, 0.5371506782845318;
+    ( 0, 1, 1 ) 0.6737329824132194, 0.3262670175867805;
+    ( 1, 0, 0 ) 0.3000175357929086, 0.6999824642070914;
+    ( 1, 0, 1 ) 0.24027381996592112, 0.7597261800340789;
+    ( 1, 1, 0 ) 0.9324934279352383, 0.06750657206476182;
+    ( 1, 1, 1 ) 0.2584601550508718, 0.7415398449491282;
+
+}
+probability ( X_new_323 | X_new_285 ) {
+    ( 0 ) 0.49750035199261067, 0.5024996480073893;
+    ( 1 ) 0.29626493893571143, 0.7037350610642885;
+
+}
+probability ( X_new_324 | X_new_239, X_new_213 ) {
+    ( 0, 0 ) 0.3494431491828578, 0.6505568508171421;
+    ( 0, 1 ) 0.24137204145898347, 0.7586279585410165;
+    ( 1, 0 ) 0.8658706967878452, 0.13412930321215477;
+    ( 1, 1 ) 0.3922891349381187, 0.6077108650618813;
+
+}
+probability ( X_new_325 | X_new_94 ) {
+    ( 0 ) 0.6144353255226085, 0.3855646744773914;
+    ( 1 ) 0.4755151849268104, 0.5244848150731897;
+
+}
+probability ( X_new_326 | X_new_250, X_new_69, X_new_332, X_new_274 ) {
+    ( 0, 0, 0, 0 ) 0.7253856457281759, 0.2746143542718242;
+    ( 0, 0, 0, 1 ) 0.5555569301761133, 0.4444430698238867;
+    ( 0, 0, 1, 0 ) 0.9937474754273655, 0.006252524572634546;
+    ( 0, 0, 1, 1 ) 0.5515914100628191, 0.4484085899371809;
+    ( 0, 1, 0, 0 ) 0.984030082664079, 0.015969917335921076;
+    ( 0, 1, 0, 1 ) 0.4652134647949669, 0.534786535205033;
+    ( 0, 1, 1, 0 ) 0.2515925067096422, 0.7484074932903578;
+    ( 0, 1, 1, 1 ) 0.4780275919071017, 0.5219724080928982;
+    ( 1, 0, 0, 0 ) 0.5854273900117717, 0.41457260998822837;
+    ( 1, 0, 0, 1 ) 0.6443519668966708, 0.35564803310332915;
+    ( 1, 0, 1, 0 ) 0.2600615094698289, 0.739938490530171;
+    ( 1, 0, 1, 1 ) 0.4944764626166628, 0.5055235373833372;
+    ( 1, 1, 0, 0 ) 0.892676939828565, 0.10732306017143503;
+    ( 1, 1, 0, 1 ) 0.6691455721888637, 0.3308544278111362;
+    ( 1, 1, 1, 0 ) 0.4315264662826933, 0.5684735337173066;
+    ( 1, 1, 1, 1 ) 0.571151312387871, 0.4288486876121289;
+
+}
+probability ( X_new_327 | X_new_173, X_new_95 ) {
+    ( 0, 0 ) 0.2909787937677926, 0.7090212062322073;
+    ( 0, 1 ) 0.6515231497778419, 0.3484768502221582;
+    ( 1, 0 ) 0.48544343222412417, 0.5145565677758758;
+    ( 1, 1 ) 0.20381626123840443, 0.7961837387615955;
+
+}
+probability ( X_new_328 ) {
+    table 0.4811701128291536, 0.5188298871708463 ;
+}
+probability ( X_new_329 | BP ) {
+    ( 0 ) 0.4604809576422018, 0.5395190423577982;
+    ( 1 ) 0.345512166354454, 0.654487833645546;
+    ( 2 ) 0.7053771315077844, 0.29462286849221564;
+
+}
+probability ( X_new_33 | X_new_37, X_new_309, X_new_112, X_new_100 ) {
+    ( 0, 0, 0, 0 ) 0.6768352308155672, 0.3231647691844329;
+    ( 0, 0, 0, 1 ) 0.6357157084500855, 0.36428429154991443;
+    ( 0, 0, 1, 0 ) 0.7499795884791061, 0.2500204115208938;
+    ( 0, 0, 1, 1 ) 0.60932454886073, 0.39067545113927016;
+    ( 0, 1, 0, 0 ) 0.983793811139759, 0.016206188860241052;
+    ( 0, 1, 0, 1 ) 0.7757303818193969, 0.2242696181806031;
+    ( 0, 1, 1, 0 ) 0.6284839528270858, 0.37151604717291425;
+    ( 0, 1, 1, 1 ) 0.5116217944378441, 0.48837820556215594;
+    ( 1, 0, 0, 0 ) 0.2117241384068646, 0.7882758615931353;
+    ( 1, 0, 0, 1 ) 0.6473328578527092, 0.35266714214729084;
+    ( 1, 0, 1, 0 ) 0.36491952306648384, 0.6350804769335161;
+    ( 1, 0, 1, 1 ) 0.6601944094718527, 0.33980559052814735;
+    ( 1, 1, 0, 0 ) 0.3611055093954736, 0.6388944906045264;
+    ( 1, 1, 0, 1 ) 0.7445562385579315, 0.25544376144206843;
+    ( 1, 1, 1, 0 ) 0.02715356946190649, 0.9728464305380935;
+    ( 1, 1, 1, 1 ) 0.8757402298755603, 0.12425977012443963;
+
+}
+probability ( X_new_330 | X_new_267, X_new_263, INTUBATION ) {
+    ( 0, 0, 0 ) 0.7382358829447929, 0.261764117055207;
+    ( 0, 0, 1 ) 0.22724490145100837, 0.7727550985489916;
+    ( 0, 0, 2 ) 0.5631666259785697, 0.43683337402143024;
+    ( 0, 1, 0 ) 0.596494584517907, 0.4035054154820929;
+    ( 0, 1, 1 ) 0.4034607236569573, 0.5965392763430427;
+    ( 0, 1, 2 ) 0.5495523608938695, 0.4504476391061305;
+    ( 1, 0, 0 ) 0.5481417899956109, 0.4518582100043891;
+    ( 1, 0, 1 ) 0.5184168572882487, 0.4815831427117512;
+    ( 1, 0, 2 ) 0.29916688340352504, 0.700833116596475;
+    ( 1, 1, 0 ) 0.6618784773573828, 0.3381215226426172;
+    ( 1, 1, 1 ) 0.35277316372357276, 0.6472268362764272;
+    ( 1, 1, 2 ) 0.28133035558153763, 0.7186696444184623;
+
+}
+probability ( X_new_331 ) {
+    table 0.10951771041858761, 0.8904822895814124 ;
+}
+probability ( X_new_332 ) {
+    table 0.5089058499860359, 0.49109415001396417 ;
+}
+probability ( X_new_333 | PCWP ) {
+    ( 0 ) 0.19782363039354106, 0.802176369606459;
+    ( 1 ) 0.6248747474586044, 0.3751252525413955;
+    ( 2 ) 0.4928319835510806, 0.5071680164489194;
+
+}
+probability ( X_new_34 | X_new_7, X_new_293, X_new_314 ) {
+    ( 0, 0, 0 ) 0.5172270012112145, 0.4827729987887856;
+    ( 0, 0, 1 ) 0.19928915028410987, 0.80071084971589;
+    ( 0, 1, 0 ) 0.662639211647035, 0.337360788352965;
+    ( 0, 1, 1 ) 0.697288650452817, 0.302711349547183;
+    ( 1, 0, 0 ) 0.3758185792982715, 0.6241814207017284;
+    ( 1, 0, 1 ) 0.5404085848853251, 0.45959141511467494;
+    ( 1, 1, 0 ) 0.5269421488991833, 0.47305785110081666;
+    ( 1, 1, 1 ) 0.7325755143244199, 0.2674244856755801;
+
+}
+probability ( X_new_35 ) {
+    table 0.32820106646416564, 0.6717989335358343 ;
+}
+probability ( X_new_36 | INSUFFANESTH ) {
+    ( 0 ) 0.7245962738062014, 0.27540372619379855;
+    ( 1 ) 0.4059576610625922, 0.5940423389374078;
+
+}
+probability ( X_new_37 | X_new_114, X_new_91, X_new_166 ) {
+    ( 0, 0, 0 ) 0.795024594202546, 0.20497540579745402;
+    ( 0, 0, 1 ) 0.925956075612615, 0.07404392438738498;
+    ( 0, 1, 0 ) 0.43889574397381326, 0.5611042560261867;
+    ( 0, 1, 1 ) 0.890226674619567, 0.10977332538043301;
+    ( 1, 0, 0 ) 0.7385982101881188, 0.26140178981188134;
+    ( 1, 0, 1 ) 0.5288845830168839, 0.4711154169831162;
+    ( 1, 1, 0 ) 0.9938217320867233, 0.006178267913276771;
+    ( 1, 1, 1 ) 0.4133534707724224, 0.5866465292275775;
+
+}
+probability ( X_new_38 | X_new_123 ) {
+    ( 0 ) 0.6783455516779894, 0.3216544483220106;
+    ( 1 ) 0.8030684487860322, 0.19693155121396777;
+
+}
+probability ( X_new_39 | X_new_65, X_new_158, X_new_273, X_new_179 ) {
+    ( 0, 0, 0, 0 ) 0.8410539743614375, 0.15894602563856255;
+    ( 0, 0, 0, 1 ) 0.5171312805737709, 0.48286871942622905;
+    ( 0, 0, 1, 0 ) 0.9327399006738218, 0.06726009932617814;
+    ( 0, 0, 1, 1 ) 0.3866345344036968, 0.6133654655963032;
+    ( 0, 1, 0, 0 ) 0.490247246596591, 0.509752753403409;
+    ( 0, 1, 0, 1 ) 0.09339010405933294, 0.9066098959406671;
+    ( 0, 1, 1, 0 ) 0.558455647288272, 0.44154435271172804;
+    ( 0, 1, 1, 1 ) 0.860929992290804, 0.139070007709196;
+    ( 1, 0, 0, 0 ) 0.3913520660396321, 0.6086479339603679;
+    ( 1, 0, 0, 1 ) 0.5224965052791609, 0.47750349472083903;
+    ( 1, 0, 1, 0 ) 0.6049980945553448, 0.3950019054446553;
+    ( 1, 0, 1, 1 ) 0.8832382202670434, 0.1167617797329565;
+    ( 1, 1, 0, 0 ) 0.10783549985721977, 0.8921645001427803;
+    ( 1, 1, 0, 1 ) 0.6322312351644755, 0.36776876483552456;
+    ( 1, 1, 1, 0 ) 0.4913755081089236, 0.5086244918910765;
+    ( 1, 1, 1, 1 ) 0.574441507406839, 0.425558492593161;
+
+}
+probability ( X_new_4 ) {
+    table 0.34849661890513084, 0.6515033810948692 ;
+}
+probability ( X_new_40 | X_new_287, X_new_326, X_new_129 ) {
+    ( 0, 0, 0 ) 0.5286650942892828, 0.47133490571071723;
+    ( 0, 0, 1 ) 0.5588887462265034, 0.44111125377349647;
+    ( 0, 1, 0 ) 0.711712989807384, 0.288287010192616;
+    ( 0, 1, 1 ) 0.2152678114897213, 0.7847321885102787;
+    ( 1, 0, 0 ) 0.5353967880175672, 0.4646032119824327;
+    ( 1, 0, 1 ) 0.466747311613281, 0.533252688386719;
+    ( 1, 1, 0 ) 0.43980136205742026, 0.5601986379425797;
+    ( 1, 1, 1 ) 0.25353781239010253, 0.7464621876098974;
+
+}
+probability ( X_new_41 ) {
+    table 0.43680111147381034, 0.5631988885261896 ;
+}
+probability ( X_new_42 | X_new_102, X_new_327, X_new_127 ) {
+    ( 0, 0, 0 ) 0.7034871541259133, 0.2965128458740867;
+    ( 0, 0, 1 ) 0.538668976134788, 0.46133102386521196;
+    ( 0, 1, 0 ) 0.5841419520521277, 0.4158580479478723;
+    ( 0, 1, 1 ) 0.2897195075108128, 0.7102804924891871;
+    ( 1, 0, 0 ) 0.363220625365959, 0.636779374634041;
+    ( 1, 0, 1 ) 0.8551770167704088, 0.14482298322959122;
+    ( 1, 1, 0 ) 0.4528993612250773, 0.5471006387749228;
+    ( 1, 1, 1 ) 0.852787412856692, 0.14721258714330795;
+
+}
+probability ( X_new_43 ) {
+    table 0.5716373329212954, 0.42836266707870463 ;
+}
+probability ( X_new_44 ) {
+    table 0.35321735597812676, 0.6467826440218731 ;
+}
+probability ( X_new_45 | X_new_171 ) {
+    ( 0 ) 0.3988018238205272, 0.6011981761794728;
+    ( 1 ) 0.4915618292656396, 0.5084381707343604;
+
+}
+probability ( X_new_46 | X_new_159, X_new_82 ) {
+    ( 0, 0 ) 0.22486600409034216, 0.7751339959096578;
+    ( 0, 1 ) 0.5003759720949426, 0.49962402790505744;
+    ( 1, 0 ) 0.17098607186269385, 0.8290139281373061;
+    ( 1, 1 ) 0.31728896665852063, 0.6827110333414793;
+
+}
+probability ( X_new_47 ) {
+    table 0.05789240190320886, 0.9421075980967911 ;
+}
+probability ( X_new_48 ) {
+    table 0.5254512172289658, 0.4745487827710342 ;
+}
+probability ( X_new_49 | X_new_147, X_new_216 ) {
+    ( 0, 0 ) 0.4320251945075139, 0.567974805492486;
+    ( 0, 1 ) 0.367522996664622, 0.632477003335378;
+    ( 1, 0 ) 0.8745780790837071, 0.1254219209162929;
+    ( 1, 1 ) 0.5686957307751582, 0.4313042692248418;
+
+}
+probability ( X_new_5 ) {
+    table 0.5874099027673021, 0.4125900972326979 ;
+}
+probability ( X_new_50 | X_new_142 ) {
+    ( 0 ) 0.49102456832789826, 0.5089754316721017;
+    ( 1 ) 0.9194577342494246, 0.08054226575057546;
+
+}
+probability ( X_new_51 | X_new_248, X_new_230 ) {
+    ( 0, 0 ) 0.5372775413956203, 0.46272245860437966;
+    ( 0, 1 ) 0.7853453869075235, 0.21465461309247647;
+    ( 1, 0 ) 0.6156817738087765, 0.3843182261912235;
+    ( 1, 1 ) 0.4318718709409197, 0.5681281290590802;
+
+}
+probability ( X_new_52 | X_new_63, ERRCAUTER, X_new_183 ) {
+    ( 0, 0, 0 ) 0.4251002628226193, 0.5748997371773807;
+    ( 0, 0, 1 ) 0.8497457769834013, 0.15025422301659877;
+    ( 0, 1, 0 ) 0.37264251601045156, 0.6273574839895484;
+    ( 0, 1, 1 ) 0.5501240598394408, 0.44987594016055926;
+    ( 1, 0, 0 ) 0.27555102199701176, 0.7244489780029882;
+    ( 1, 0, 1 ) 0.5624007554374306, 0.43759924456256943;
+    ( 1, 1, 0 ) 0.403338120150465, 0.596661879849535;
+    ( 1, 1, 1 ) 0.029286509950387552, 0.9707134900496125;
+
+}
+probability ( X_new_53 | X_new_62 ) {
+    ( 0 ) 0.2987489943509219, 0.7012510056490782;
+    ( 1 ) 0.37509940555341503, 0.624900594446585;
+
+}
+probability ( X_new_54 | X_new_241 ) {
+    ( 0 ) 0.5479459234557746, 0.45205407654422525;
+    ( 1 ) 0.6798168122723218, 0.3201831877276781;
+
+}
+probability ( X_new_55 ) {
+    table 0.5116164261612897, 0.4883835738387103 ;
+}
+probability ( X_new_56 | X_new_277, X_new_58, X_new_263 ) {
+    ( 0, 0, 0 ) 0.1186036318766326, 0.8813963681233674;
+    ( 0, 0, 1 ) 0.2145162459859567, 0.7854837540140432;
+    ( 0, 1, 0 ) 0.554661425540633, 0.4453385744593669;
+    ( 0, 1, 1 ) 0.43352941251215354, 0.5664705874878464;
+    ( 1, 0, 0 ) 0.7687129688646813, 0.23128703113531873;
+    ( 1, 0, 1 ) 0.4543409856519927, 0.5456590143480073;
+    ( 1, 1, 0 ) 0.7753409826783646, 0.22465901732163546;
+    ( 1, 1, 1 ) 0.8504429092672022, 0.14955709073279772;
+
+}
+probability ( X_new_57 | X_new_185, X_new_217 ) {
+    ( 0, 0 ) 0.9498534788081161, 0.05014652119188396;
+    ( 0, 1 ) 0.5647386810862182, 0.4352613189137819;
+    ( 1, 0 ) 0.1953976132880498, 0.8046023867119503;
+    ( 1, 1 ) 0.3370832852541563, 0.6629167147458438;
+
+}
+probability ( X_new_58 | X_new_273, X_new_93 ) {
+    ( 0, 0 ) 0.4169522188477142, 0.5830477811522857;
+    ( 0, 1 ) 0.14706728720532353, 0.8529327127946764;
+    ( 1, 0 ) 0.46083908821046843, 0.5391609117895315;
+    ( 1, 1 ) 0.40691163240968936, 0.5930883675903106;
+
+}
+probability ( X_new_59 ) {
+    table 0.22053562587687237, 0.7794643741231276 ;
+}
+probability ( X_new_6 | X_new_249, X_new_146 ) {
+    ( 0, 0 ) 0.602106056416456, 0.397893943583544;
+    ( 0, 1 ) 0.36920819795643717, 0.6307918020435629;
+    ( 1, 0 ) 0.5104883246349508, 0.48951167536504914;
+    ( 1, 1 ) 0.5928758959702394, 0.4071241040297607;
+
+}
+probability ( X_new_60 ) {
+    table 0.34820753094594264, 0.6517924690540574 ;
+}
+probability ( X_new_61 | X_new_267, X_new_177 ) {
+    ( 0, 0 ) 0.33242491655171835, 0.6675750834482818;
+    ( 0, 1 ) 0.16922719314428417, 0.8307728068557158;
+    ( 1, 0 ) 0.3354458842798889, 0.664554115720111;
+    ( 1, 1 ) 0.46180166173575893, 0.5381983382642411;
+
+}
+probability ( X_new_62 | X_new_26 ) {
+    ( 0 ) 0.2184592243529515, 0.7815407756470485;
+    ( 1 ) 0.9572276093714158, 0.042772390628584255;
+
+}
+probability ( X_new_63 | X_new_163, X_new_258 ) {
+    ( 0, 0 ) 0.7961457885238261, 0.20385421147617386;
+    ( 0, 1 ) 0.0016862604643054619, 0.9983137395356946;
+    ( 1, 0 ) 0.23710735380060888, 0.7628926461993911;
+    ( 1, 1 ) 0.4051695044442773, 0.5948304955557228;
+
+}
+probability ( X_new_64 | X_new_3, X_new_282, X_new_139 ) {
+    ( 0, 0, 0 ) 0.4522371948189397, 0.5477628051810604;
+    ( 0, 0, 1 ) 0.3093286250702184, 0.6906713749297817;
+    ( 0, 1, 0 ) 0.7562976360963023, 0.24370236390369773;
+    ( 0, 1, 1 ) 0.6481878220567312, 0.3518121779432688;
+    ( 1, 0, 0 ) 0.30743532789159655, 0.6925646721084034;
+    ( 1, 0, 1 ) 0.8572840598698787, 0.14271594013012134;
+    ( 1, 1, 0 ) 0.37814796055083433, 0.6218520394491657;
+    ( 1, 1, 1 ) 0.3005844832635815, 0.6994155167364184;
+
+}
+probability ( X_new_65 | X_new_135, X_new_313, X_new_187 ) {
+    ( 0, 0, 0 ) 0.50701543079745, 0.4929845692025499;
+    ( 0, 0, 1 ) 0.42986387933022885, 0.570136120669771;
+    ( 0, 1, 0 ) 0.6109933332293139, 0.38900666677068607;
+    ( 0, 1, 1 ) 0.24269631118590554, 0.7573036888140945;
+    ( 1, 0, 0 ) 0.35975601006466984, 0.6402439899353302;
+    ( 1, 0, 1 ) 0.7155447954791445, 0.2844552045208554;
+    ( 1, 1, 0 ) 0.7186810142282186, 0.28131898577178127;
+    ( 1, 1, 1 ) 0.418137672944088, 0.581862327055912;
+
+}
+probability ( X_new_66 | X_new_168 ) {
+    ( 0 ) 0.15744654651658146, 0.8425534534834186;
+    ( 1 ) 0.40391274719906706, 0.5960872528009329;
+
+}
+probability ( X_new_67 | X_new_225, X_new_9, X_new_243 ) {
+    ( 0, 0, 0 ) 0.6112927616138385, 0.38870723838616156;
+    ( 0, 0, 1 ) 0.4544128413238449, 0.5455871586761551;
+    ( 0, 1, 0 ) 0.664648817321707, 0.3353511826782929;
+    ( 0, 1, 1 ) 0.9845013019812271, 0.015498698018772846;
+    ( 1, 0, 0 ) 0.4724553884556273, 0.5275446115443727;
+    ( 1, 0, 1 ) 0.2725611416522122, 0.7274388583477878;
+    ( 1, 1, 0 ) 0.9690368388058637, 0.030963161194136377;
+    ( 1, 1, 1 ) 0.029611524933978825, 0.9703884750660212;
+
+}
+probability ( X_new_68 | X_new_107, X_new_35, X_new_187, X_new_228 ) {
+    ( 0, 0, 0, 0 ) 0.6514294106691931, 0.34857058933080687;
+    ( 0, 0, 0, 1 ) 0.33443566960002324, 0.6655643303999768;
+    ( 0, 0, 1, 0 ) 0.49738010082870227, 0.5026198991712977;
+    ( 0, 0, 1, 1 ) 0.12570317063363787, 0.8742968293663621;
+    ( 0, 1, 0, 0 ) 0.5935219177980715, 0.4064780822019285;
+    ( 0, 1, 0, 1 ) 0.34182041505810756, 0.6581795849418923;
+    ( 0, 1, 1, 0 ) 0.5302515463717575, 0.4697484536282424;
+    ( 0, 1, 1, 1 ) 0.007264551386657222, 0.9927354486133428;
+    ( 1, 0, 0, 0 ) 0.5150435993974433, 0.4849564006025566;
+    ( 1, 0, 0, 1 ) 0.4285609353956018, 0.5714390646043982;
+    ( 1, 0, 1, 0 ) 0.44297089565836617, 0.5570291043416339;
+    ( 1, 0, 1, 1 ) 0.6505874342701525, 0.34941256572984747;
+    ( 1, 1, 0, 0 ) 0.4786491111086477, 0.5213508888913522;
+    ( 1, 1, 0, 1 ) 0.6912865092522074, 0.3087134907477926;
+    ( 1, 1, 1, 0 ) 0.4104353271827212, 0.5895646728172789;
+    ( 1, 1, 1, 1 ) 0.3001607841266654, 0.6998392158733346;
+
+}
+probability ( X_new_69 | HREKG, CO, X_new_24 ) {
+    ( 0, 0, 0 ) 0.44668279502472724, 0.5533172049752728;
+    ( 0, 0, 1 ) 0.08265289074845995, 0.91734710925154;
+    ( 0, 1, 0 ) 0.3469924406520566, 0.6530075593479434;
+    ( 0, 1, 1 ) 0.017988760574455795, 0.9820112394255442;
+    ( 0, 2, 0 ) 0.11186709383449157, 0.8881329061655084;
+    ( 0, 2, 1 ) 0.8767387559785653, 0.12326124402143464;
+    ( 1, 0, 0 ) 0.4503454549926369, 0.5496545450073631;
+    ( 1, 0, 1 ) 0.6245153606506691, 0.37548463934933085;
+    ( 1, 1, 0 ) 0.8242736129376834, 0.17572638706231666;
+    ( 1, 1, 1 ) 0.2404929587462072, 0.7595070412537928;
+    ( 1, 2, 0 ) 0.1895398243142416, 0.8104601756857585;
+    ( 1, 2, 1 ) 0.7430837538003082, 0.25691624619969183;
+    ( 2, 0, 0 ) 0.8135052646444114, 0.18649473535558855;
+    ( 2, 0, 1 ) 0.22150491529774283, 0.7784950847022571;
+    ( 2, 1, 0 ) 0.7027420305859522, 0.29725796941404786;
+    ( 2, 1, 1 ) 0.3606168860947983, 0.6393831139052016;
+    ( 2, 2, 0 ) 0.9551230248691339, 0.04487697513086611;
+    ( 2, 2, 1 ) 0.9300582506612504, 0.06994174933874968;
+
+}
+probability ( X_new_7 | X_new_198, X_new_105 ) {
+    ( 0, 0 ) 0.3377497557791718, 0.6622502442208281;
+    ( 0, 1 ) 0.871702055353128, 0.1282979446468721;
+    ( 1, 0 ) 0.690035720687167, 0.309964279312833;
+    ( 1, 1 ) 0.5071377054357677, 0.49286229456423225;
+
+}
+probability ( X_new_70 | X_new_82, SHUNT ) {
+    ( 0, 0 ) 0.5420626599543121, 0.4579373400456878;
+    ( 0, 1 ) 0.48629521657794933, 0.5137047834220507;
+    ( 1, 0 ) 0.8544451091975552, 0.14555489080244466;
+    ( 1, 1 ) 0.9617331004498394, 0.03826689955016061;
+
+}
+probability ( X_new_71 ) {
+    table 0.46224935234932013, 0.5377506476506799 ;
+}
+probability ( X_new_72 | X_new_30, X_new_259 ) {
+    ( 0, 0 ) 0.785562079336094, 0.21443792066390607;
+    ( 0, 1 ) 0.4655860064725218, 0.5344139935274782;
+    ( 1, 0 ) 0.31654628768256554, 0.6834537123174343;
+    ( 1, 1 ) 0.28227912421388457, 0.7177208757861153;
+
+}
+probability ( X_new_73 | X_new_29, X_new_93, X_new_64, X_new_317 ) {
+    ( 0, 0, 0, 0 ) 0.525865626958652, 0.4741343730413479;
+    ( 0, 0, 0, 1 ) 0.24917849016158922, 0.7508215098384108;
+    ( 0, 0, 1, 0 ) 0.8433857865773177, 0.1566142134226824;
+    ( 0, 0, 1, 1 ) 0.02818207967403365, 0.9718179203259664;
+    ( 0, 1, 0, 0 ) 0.6781187898548456, 0.32188121014515436;
+    ( 0, 1, 0, 1 ) 0.891502976175677, 0.10849702382432312;
+    ( 0, 1, 1, 0 ) 0.21272540322654215, 0.7872745967734579;
+    ( 0, 1, 1, 1 ) 0.984415991174958, 0.015584008825042003;
+    ( 1, 0, 0, 0 ) 0.2305709741319996, 0.7694290258680004;
+    ( 1, 0, 0, 1 ) 0.7052154430092463, 0.2947845569907536;
+    ( 1, 0, 1, 0 ) 0.07010754079453815, 0.9298924592054619;
+    ( 1, 0, 1, 1 ) 0.12240047188533348, 0.8775995281146666;
+    ( 1, 1, 0, 0 ) 0.05726562190884411, 0.9427343780911559;
+    ( 1, 1, 0, 1 ) 0.27214563108049833, 0.7278543689195017;
+    ( 1, 1, 1, 0 ) 0.5751067516606689, 0.42489324833933106;
+    ( 1, 1, 1, 1 ) 0.25155045281315824, 0.7484495471868418;
+
+}
+probability ( X_new_74 | X_new_182, X_new_292 ) {
+    ( 0, 0 ) 0.6675383251895992, 0.3324616748104008;
+    ( 0, 1 ) 0.5774166477385371, 0.422583352261463;
+    ( 1, 0 ) 0.4431397538400997, 0.5568602461599003;
+    ( 1, 1 ) 0.7877380961139394, 0.21226190388606067;
+
+}
+probability ( X_new_75 | X_new_297, X_new_19 ) {
+    ( 0, 0 ) 0.4754073865450512, 0.5245926134549487;
+    ( 0, 1 ) 0.10511220057568903, 0.894887799424311;
+    ( 1, 0 ) 0.7500870613096668, 0.2499129386903332;
+    ( 1, 1 ) 0.8443813606052533, 0.15561863939474677;
+
+}
+probability ( X_new_76 | X_new_18 ) {
+    ( 0 ) 0.7223016721955822, 0.2776983278044178;
+    ( 1 ) 0.9164575484459535, 0.08354245155404638;
+
+}
+probability ( X_new_77 ) {
+    table 0.9690511364423187, 0.030948863557681335 ;
+}
+probability ( X_new_78 | X_new_4 ) {
+    ( 0 ) 0.7157766347667187, 0.2842233652332813;
+    ( 1 ) 0.49605028134561907, 0.503949718654381;
+
+}
+probability ( X_new_79 | X_new_113 ) {
+    ( 0 ) 0.28159403620238255, 0.7184059637976175;
+    ( 1 ) 0.5983850232645586, 0.4016149767354414;
+
+}
+probability ( X_new_8 | KINKEDTUBE ) {
+    ( 0 ) 0.5399443927951647, 0.46005560720483524;
+    ( 1 ) 0.5707417646392128, 0.4292582353607871;
+
+}
+probability ( X_new_80 | X_new_186, X_new_74 ) {
+    ( 0, 0 ) 0.9763396284624521, 0.023660371537547853;
+    ( 0, 1 ) 0.5244501288373971, 0.4755498711626029;
+    ( 1, 0 ) 0.3780312363929906, 0.6219687636070095;
+    ( 1, 1 ) 0.6111040361498333, 0.38889596385016667;
+
+}
+probability ( X_new_81 | X_new_332, X_new_6 ) {
+    ( 0, 0 ) 0.45982815885667655, 0.5401718411433234;
+    ( 0, 1 ) 0.20104972000823618, 0.7989502799917638;
+    ( 1, 0 ) 0.4949140877044863, 0.5050859122955137;
+    ( 1, 1 ) 0.3684134196773473, 0.6315865803226527;
+
+}
+probability ( X_new_82 ) {
+    table 0.4007832396172769, 0.599216760382723 ;
+}
+probability ( X_new_83 | X_new_20, ARTCO2 ) {
+    ( 0, 0 ) 0.8655304952286854, 0.1344695047713146;
+    ( 0, 1 ) 0.7138093733083862, 0.2861906266916138;
+    ( 0, 2 ) 0.8761140149277141, 0.12388598507228595;
+    ( 1, 0 ) 0.49929394966795504, 0.500706050332045;
+    ( 1, 1 ) 0.3725825356637882, 0.6274174643362118;
+    ( 1, 2 ) 0.6129833164243423, 0.38701668357565766;
+
+}
+probability ( X_new_84 | X_new_274 ) {
+    ( 0 ) 0.4111184271477015, 0.5888815728522984;
+    ( 1 ) 0.4900511238654822, 0.5099488761345178;
+
+}
+probability ( X_new_85 | X_new_145, X_new_24 ) {
+    ( 0, 0 ) 0.4916442691875889, 0.5083557308124111;
+    ( 0, 1 ) 0.4377515056008201, 0.5622484943991799;
+    ( 1, 0 ) 0.5634632188323496, 0.4365367811676504;
+    ( 1, 1 ) 0.8380884259451356, 0.16191157405486434;
+
+}
+probability ( X_new_86 ) {
+    table 0.5085870464606028, 0.4914129535393972 ;
+}
+probability ( X_new_87 | X_new_76, X_new_231, X_new_285 ) {
+    ( 0, 0, 0 ) 0.7496164759891134, 0.25038352401088654;
+    ( 0, 0, 1 ) 0.34651885362965207, 0.6534811463703479;
+    ( 0, 1, 0 ) 0.5026040739380723, 0.4973959260619276;
+    ( 0, 1, 1 ) 0.1877560469358132, 0.8122439530641868;
+    ( 1, 0, 0 ) 0.47073251104737845, 0.5292674889526215;
+    ( 1, 0, 1 ) 0.6923832045876152, 0.3076167954123849;
+    ( 1, 1, 0 ) 0.7967409546178982, 0.20325904538210193;
+    ( 1, 1, 1 ) 0.4845647507160807, 0.5154352492839194;
+
+}
+probability ( X_new_88 | X_new_23 ) {
+    ( 0 ) 0.5732445936837363, 0.42675540631626363;
+    ( 1 ) 0.29651785849876616, 0.7034821415012339;
+
+}
+probability ( X_new_89 | X_new_39, X_new_223 ) {
+    ( 0, 0 ) 0.7696281674828981, 0.230371832517102;
+    ( 0, 1 ) 0.46691984463332703, 0.533080155366673;
+    ( 1, 0 ) 0.3168673143821732, 0.6831326856178268;
+    ( 1, 1 ) 0.357511666882985, 0.6424883331170149;
+
+}
+probability ( X_new_9 | X_new_131, X_new_79, X_new_279, X_new_163 ) {
+    ( 0, 0, 0, 0 ) 0.4312290691305104, 0.5687709308694896;
+    ( 0, 0, 0, 1 ) 0.1795074751078385, 0.8204925248921615;
+    ( 0, 0, 1, 0 ) 0.015973758070050026, 0.98402624192995;
+    ( 0, 0, 1, 1 ) 0.5326740158948908, 0.4673259841051093;
+    ( 0, 1, 0, 0 ) 0.38136168537930937, 0.6186383146206905;
+    ( 0, 1, 0, 1 ) 0.6608228877390463, 0.3391771122609537;
+    ( 0, 1, 1, 0 ) 0.4648338238398449, 0.535166176160155;
+    ( 0, 1, 1, 1 ) 0.4422643688708992, 0.5577356311291009;
+    ( 1, 0, 0, 0 ) 0.38974337945256876, 0.6102566205474312;
+    ( 1, 0, 0, 1 ) 0.9480709387526735, 0.05192906124732664;
+    ( 1, 0, 1, 0 ) 0.22106433298251899, 0.7789356670174811;
+    ( 1, 0, 1, 1 ) 0.45090737057183744, 0.5490926294281626;
+    ( 1, 1, 0, 0 ) 0.2817335585708265, 0.7182664414291735;
+    ( 1, 1, 0, 1 ) 0.19717604629177543, 0.8028239537082246;
+    ( 1, 1, 1, 0 ) 0.7291880305181995, 0.2708119694818005;
+    ( 1, 1, 1, 1 ) 0.05608643262873388, 0.9439135673712661;
+
+}
+probability ( X_new_90 | X_new_321, X_new_95 ) {
+    ( 0, 0 ) 0.628301431444831, 0.3716985685551691;
+    ( 0, 1 ) 0.4149797810255474, 0.5850202189744526;
+    ( 1, 0 ) 0.8899134705614071, 0.11008652943859291;
+    ( 1, 1 ) 0.4397594060481484, 0.5602405939518517;
+
+}
+probability ( X_new_91 | X_new_210, X_new_110, X_new_121 ) {
+    ( 0, 0, 0 ) 0.5340924981851887, 0.46590750181481133;
+    ( 0, 0, 1 ) 0.5700527486485256, 0.4299472513514743;
+    ( 0, 1, 0 ) 0.46827201905414023, 0.5317279809458598;
+    ( 0, 1, 1 ) 0.3976134514731518, 0.6023865485268481;
+    ( 1, 0, 0 ) 0.5002975982642811, 0.49970240173571884;
+    ( 1, 0, 1 ) 0.4267603760616362, 0.5732396239383638;
+    ( 1, 1, 0 ) 0.8505938440439379, 0.14940615595606216;
+    ( 1, 1, 1 ) 0.30443759881301957, 0.6955624011869804;
+
+}
+probability ( X_new_92 ) {
+    table 0.7481235709982785, 0.25187642900172147 ;
+}
+probability ( X_new_93 | X_new_7, X_new_117 ) {
+    ( 0, 0 ) 0.30540061769087007, 0.6945993823091299;
+    ( 0, 1 ) 0.8631396847763178, 0.13686031522368225;
+    ( 1, 0 ) 0.5085791420577049, 0.49142085794229506;
+    ( 1, 1 ) 0.5042860486200283, 0.4957139513799717;
+
+}
+probability ( X_new_94 | X_new_12 ) {
+    ( 0 ) 0.44290041246612954, 0.5570995875338706;
+    ( 1 ) 0.415757332591449, 0.584242667408551;
+
+}
+probability ( X_new_95 | X_new_83 ) {
+    ( 0 ) 0.5310417855365498, 0.46895821446345015;
+    ( 1 ) 0.6314653827317868, 0.36853461726821324;
+
+}
+probability ( X_new_96 | X_new_28, X_new_127 ) {
+    ( 0, 0 ) 0.30764489170390436, 0.6923551082960956;
+    ( 0, 1 ) 0.19264637550351105, 0.8073536244964888;
+    ( 1, 0 ) 0.3740491576334405, 0.6259508423665594;
+    ( 1, 1 ) 0.590260493854683, 0.40973950614531685;
+
+}
+probability ( X_new_97 | X_new_71, X_new_102 ) {
+    ( 0, 0 ) 0.38697315608582394, 0.613026843914176;
+    ( 0, 1 ) 0.4639056396860127, 0.5360943603139872;
+    ( 1, 0 ) 0.6887338382034177, 0.3112661617965823;
+    ( 1, 1 ) 0.4231414045812253, 0.5768585954187747;
+
+}
+probability ( X_new_98 | X_new_319, LVFAILURE, X_new_170 ) {
+    ( 0, 0, 0 ) 0.680175480580631, 0.31982451941936896;
+    ( 0, 0, 1 ) 0.5478570714043517, 0.45214292859564825;
+    ( 0, 1, 0 ) 0.20316738584173835, 0.7968326141582616;
+    ( 0, 1, 1 ) 0.17290485468524291, 0.8270951453147571;
+    ( 1, 0, 0 ) 0.7443021261920475, 0.25569787380795245;
+    ( 1, 0, 1 ) 0.48494620845450553, 0.5150537915454945;
+    ( 1, 1, 0 ) 0.3012112714855698, 0.6987887285144303;
+    ( 1, 1, 1 ) 0.543600476479384, 0.4563995235206161;
+
+}
+probability ( X_new_99 | X_new_44, X_new_308, X_new_290 ) {
+    ( 0, 0, 0 ) 0.704579140500033, 0.295420859499967;
+    ( 0, 0, 1 ) 0.20644351280983317, 0.7935564871901668;
+    ( 0, 1, 0 ) 0.3063494045579538, 0.6936505954420462;
+    ( 0, 1, 1 ) 0.02794304916752989, 0.97205695083247;
+    ( 1, 0, 0 ) 0.05122252629933953, 0.9487774737006605;
+    ( 1, 0, 1 ) 0.8713728293185159, 0.1286271706814842;
+    ( 1, 1, 0 ) 0.46089691038479275, 0.5391030896152071;
+    ( 1, 1, 1 ) 0.4208848348879691, 0.579115165112031;
+
+}

@@ -1,0 +1,26 @@
+bif_dir: data/bif
+sample_dir: data/samples
+output_dir: outputs/boss_bdeu
+
+networks:
+  - alarm
+  - alarm3
+  - alarm10
+  - child3
+  - child5
+  - child10
+  - andes
+  - pigs
+
+sample_sizes: [200, 300, 500, 1000, 2000, 5000]
+
+# Main-result setting. Run sensitivity analysis separately for ESS=1, 5, 10.
+equivalent_sample_size: 10.0
+structure_prior: 1.0
+max_parents: 5
+max_parent_configurations: 1000000
+number_of_starts: 1
+seed: 42
+max_sweeps: 100
+generate_if_missing: false
+
