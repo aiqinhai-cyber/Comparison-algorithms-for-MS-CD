@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: >-
+  This repository is an independent Python reproduction used as a baseline.
+  Please cite the original Adapt-CSL paper when using the algorithm.
+title: Independent Python Reproduction of Adapt-CSL
+type: software
+authors:
+  - name: Repository contributors
+version: 1.0.0
+date-released: 2026-09-20
+preferred-citation:
+  type: article
+  title: >-
+    Enhancing causal structure learning with adaptive local-to-global skeleton
+    construction
+  authors:
+    - family-names: Li
+      given-names: Tianci
+    - family-names: Cheng
+      given-names: Debo
+    - family-names: Duan
+      given-names: Zhangling
+    - family-names: Ling
+      given-names: Zhaolong
+  journal: Applied Soft Computing
+  volume: 201
+  year: 2026
+  doi: 10.1016/j.asoc.2026.115654

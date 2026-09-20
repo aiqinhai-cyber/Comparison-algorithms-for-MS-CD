@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+
+adapt_csl_results/
+environment-lock.txt
+*.log
+*.tmp
+
+# Confirm redistribution rights before committing BIF files.
+data/bif/*.bif
+!data/bif/README.md
