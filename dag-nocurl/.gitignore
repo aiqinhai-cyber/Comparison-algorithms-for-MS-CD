@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+results_nocurl_threshold_sweep/
+environment-lock.txt
+data/bif/*.bif
+!data/bif/README.md

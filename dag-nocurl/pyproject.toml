@@ -1,0 +1,27 @@
+[project]
+name = "dag-nocurl-discrete-bn-benchmark"
+version = "1.0.0"
+description = "Independent DAG-NoCurl/NoCurl-2 benchmark adaptation for discrete BIF networks"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "numpy>=1.26,<3.0",
+  "pandas>=2.0,<3.0",
+  "scipy>=1.11,<2.0",
+  "networkx>=3.1,<4.0",
+  "pgmpy>=0.1.25,<2.0",
+  "threadpoolctl>=3.2,<4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
